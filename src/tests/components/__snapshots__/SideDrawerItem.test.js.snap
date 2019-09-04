@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render the sidedrawer back button correctly 1`] = `
+<Link
+  className="side-draw__list-item"
+  onClick={[Function]}
+  to="/dashboard"
+>
+  <span
+    className="side-draw__span-container"
+  >
+    <img
+      className="side-draw-image__icon"
+      src="test.png"
+    />
+    <div>
+      <p
+        className="side-draw-item__title"
+      >
+        dashboard
+      </p>
+    </div>
+  </span>
+</Link>
+`;

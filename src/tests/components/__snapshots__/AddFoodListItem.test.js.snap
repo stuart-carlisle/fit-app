@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render a food correctly 1`] = `
+<Link
+  className="list-item"
+  to="/add-food/2"
+>
+  <div>
+    <p
+      className="list-item__title"
+    >
+      CHEESE ON TOAST
+    </p>
+  </div>
+  <div>
+    <p
+      className="list-item__data"
+    >
+      340
+    </p>
+  </div>
+</Link>
+`;

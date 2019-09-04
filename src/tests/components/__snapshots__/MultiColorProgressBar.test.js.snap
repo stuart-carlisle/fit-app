@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render the multicolor progress bar correctly 1`] = `
+<div
+  className="multicolor-bar"
+>
+  <div
+    className="bars"
+  />
+</div>
+`;

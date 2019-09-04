@@ -1,0 +1,174 @@
+.summary {
+    font-family: "Agency FB";
+    border: 1px solid $blue;
+    -webkit-box-shadow: 0 8px 6px -6px $blue;
+	   -moz-box-shadow: 0 8px 6px -6px $blue;
+	        box-shadow: 0 8px 6px -6px $blue;
+    margin: $s-size;
+    width:60%;
+    justify-content:flex-start;
+    color: $blue;
+    display: flex;
+    flex-direction: column;
+    padding: $m-size;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    &:hover {
+        background: lighten($color: $blue, $amount: 45%);
+    }
+    @media (max-width:$tablet-breakpoint){
+        width:100%;
+        padding:$s-size;
+        margin:0.5rem 0;
+        border-left: none;
+        border-right:none;
+    }
+    @media (min-width: $tablet-breakpoint ) and (max-width: $large-tablet-breakpoint) {
+        width:80%;
+        padding:$s-size;
+    }
+    @media (min-width: $large-tablet-breakpoint ) and (max-width: $desktop-breakpoint) {
+        width:70%;
+        padding:$m-size;
+    }
+}
+
+.summary__date-filter {
+    font-family: "Agency FB";
+    border: none;
+    width:100%;
+    justify-content:space-between;
+    color: $blue;
+    display: flex;
+    flex-direction: column;
+    padding: $m-size;
+    text-decoration: none;
+    @media (max-width:$tablet-breakpoint){
+        padding:0;
+        margin:0;
+    }
+}
+
+.green {
+    color: $green;
+}
+
+.red {
+    color: $red;
+}
+
+.blue {
+    color: $grey;
+}
+
+
+.left-space {
+    margin:0 0 0 0.8rem;
+    @media (max-width:$tablet-breakpoint){
+        margin:0 0 0 0.5rem;
+    }
+}
+
+.right-and-left-space {
+    margin:0 0.8rem;
+    text-align: center;
+    @media (max-width:$tablet-breakpoint){
+        margin:0 0.5rem;
+    }
+}
+
+.summary-item--span {
+    display:flex;
+    font-size: 4rem;
+    justify-content: space-between;
+    @media (max-width:$tablet-breakpoint){
+        font-size: 2rem;
+        justify-content: space-around;
+    }
+    @media (min-width: $tablet-breakpoint ) and (max-width: $large-tablet-breakpoint) {
+        font-size: 2.8rem;
+        justify-content: space-around;
+    }
+    @media (min-width: $large-tablet-breakpoint ) and (max-width: $desktop-breakpoint) {
+        font-size: 3.2rem;
+    }
+}
+
+.summary-item--span-dashboard {
+    display:flex;
+    font-size: 4rem;
+    justify-content: space-between;
+    @media (max-width:$tablet-breakpoint){
+        font-size: 2rem;
+        justify-content: space-around;
+    }
+    @media (min-width: $tablet-breakpoint ) and (max-width: $large-tablet-breakpoint) {
+        font-size: 2.8rem;
+    }
+    @media (min-width: $large-tablet-breakpoint ) and (max-width: $desktop-breakpoint) {
+        font-size: 3.2rem;
+    }
+}
+
+.summary-item--span-header {
+    display:flex;
+    font-size: 4rem;
+    justify-content: space-between;
+    @media (max-width:$tablet-breakpoint){
+        font-size: 2rem;
+        justify-content: start;
+    }
+}
+
+.summary-item__date {
+    text-align: center;
+    line-height:7rem;
+}
+
+.summary-text {
+    text-align: center;
+}
+
+.summary-text__date {
+    text-align: center;
+    font-size: 4.5rem;
+    @media (max-width:$tablet-breakpoint){
+        font-size: 2.8rem;
+    }
+    @media (min-width: $tablet-breakpoint ) and (max-width: $large-tablet-breakpoint) {
+        font-size: 3rem;
+    }
+    @media (min-width: $large-tablet-breakpoint ) and (max-width: $desktop-breakpoint - 0.1rem) {
+        font-size: 4rem;
+    }
+}
+
+.summary-text__mobile-title {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.summary-text__diary-mobile-title {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.summary-text__small {
+    font-size:2rem;
+    text-align: center;
+    line-height: 0;
+    margin-bottom:$s-size;
+    @media (max-width:$tablet-breakpoint){
+        font-size: 1.4rem;
+    }
+    @media (min-width: $tablet-breakpoint ) and (max-width: $large-tablet-breakpoint) {
+        font-size: 1.6rem;
+    }
+    @media (min-width: $large-tablet-breakpoint ) and (max-width: $desktop-breakpoint) {
+        font-size: 1.8rem;
+    }
+}
+
+.summary-text__container {
+    align-content: center;
+}

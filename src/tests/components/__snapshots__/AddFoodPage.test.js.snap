@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render add food page correctly with props 1`] = `
+<div>
+  <Link
+    className="button__back-button"
+    to="/diary"
+  >
+    <img
+      className="image__header"
+      src="/images/back-arrow.svg"
+    />
+  </Link>
+  <div
+    className="page-header__filter page-header__filter--with-back"
+  >
+    <div
+      className="content-container"
+    >
+      <Connect(AddFoodListFilters) />
+    </div>
+  </div>
+  <Connect(AddFoodsList) />
+  <div
+    className="content-container"
+  >
+    <Link
+      className="button button--link"
+      to="/create-food"
+    >
+      + CUSTOM FOOD
+    </Link>
+  </div>
+</div>
+`;
+
+exports[`should render add food page correctly without props 1`] = `
+<div>
+  <Link
+    className="button__back-button"
+    to="/diary"
+  >
+    <img
+      className="image__header"
+      src="/images/back-arrow.svg"
+    />
+  </Link>
+  <div
+    className="page-header__filter page-header__filter--with-back"
+  >
+    <div
+      className="content-container"
+    >
+      <Connect(AddFoodListFilters) />
+    </div>
+  </div>
+  <Connect(AddFoodsList) />
+  <div
+    className="content-container"
+  >
+    <Link
+      className="button button--link"
+      to="/create-food"
+    >
+      + CUSTOM FOOD
+    </Link>
+  </div>
+</div>
+`;

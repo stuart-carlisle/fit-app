@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render UpdateTargetsPage with props correctly 1`] = `
+<div>
+  <button
+    className="button__back-button"
+    onClick={[Function]}
+  >
+    <img
+      className="image__header"
+      src="/images/back-arrow.svg"
+    />
+  </button>
+  <div
+    className="page-header__filter page-header__filter--with-back"
+  >
+    <div
+      className="content-container"
+    >
+      <h1
+        className="page-header__title"
+      >
+        EDIT TARGETS
+      </h1>
+    </div>
+  </div>
+  <div
+    className="show-for-mobile page-header__margin"
+  />
+  <div
+    className="content-container"
+  >
+    <UpdateTargetsForm
+      onSubmit={[Function]}
+      targets={
+        Object {
+          "dailyCarbsTarget": "300",
+          "dailyEnergyTarget": "3200",
+          "dailyFatTarget": "45",
+        }
+      }
+    />
+  </div>
+</div>
+`;

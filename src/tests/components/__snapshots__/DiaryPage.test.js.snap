@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render diary page correctly 1`] = `
+<div
+  className="content-container__main"
+>
+  <div
+    className="page-header__date-filter"
+  >
+    <div
+      className="content-container"
+    >
+      <Connect(DateFilter) />
+    </div>
+  </div>
+  <Connect(DiaryFoodsList)
+    key="breakfast"
+    meal="breakfast"
+  />
+  <div
+    className="content-container"
+  >
+    <Link
+      className="button button--link"
+      onClick={[Function]}
+      to="/add"
+    >
+      + Add Food
+    </Link>
+  </div>
+  <Connect(DiaryFoodsList)
+    key="lunch"
+    meal="lunch"
+  />
+  <div
+    className="content-container"
+  >
+    <Link
+      className="button button--link"
+      onClick={[Function]}
+      to="/add"
+    >
+      + Add Food
+    </Link>
+  </div>
+  <Connect(DiaryFoodsList)
+    key="dinner"
+    meal="dinner"
+  />
+  <div
+    className="content-container"
+  >
+    <Link
+      className="button button--link"
+      onClick={[Function]}
+      to="/add"
+    >
+      + Add Food
+    </Link>
+  </div>
+  <Connect(DiaryFoodsList)
+    key="snacks"
+    meal="snacks"
+  />
+  <div
+    className="content-container"
+  >
+    <Link
+      className="button button--link"
+      onClick={[Function]}
+      to="/add"
+    >
+      + Add Food
+    </Link>
+  </div>
+  <Connect(DiaryExercisesList) />
+  <div
+    className="content-container"
+  >
+    <Link
+      className="button button--link"
+      to="/add-exercise"
+    >
+      + Add Exercise
+    </Link>
+  </div>
+</div>
+`;

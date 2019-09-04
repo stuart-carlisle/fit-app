@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render backdrop correctly 1`] = `
+<div
+  className="backdrop"
+  onClick={[Function]}
+  style={
+    Object {
+      "background": "grey",
+    }
+  }
+/>
+`;

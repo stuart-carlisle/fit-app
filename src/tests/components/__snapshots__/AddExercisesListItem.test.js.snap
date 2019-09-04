@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render an exercise 1`] = `
+<Link
+  className="list-item"
+  to="/add-exercise-confirmation/2"
+>
+  <div>
+    <p
+      className="list-item__title"
+    >
+      JUMPING
+    </p>
+  </div>
+  <div>
+    <p
+      className="list-item__data"
+    >
+      29
+    </p>
+  </div>
+</Link>
+`;

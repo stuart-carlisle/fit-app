@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render a diary exercise 1`] = `
+<Link
+  className="list-item"
+  to="/update-food/2"
+>
+  <div>
+    <p
+      className="list-item__title"
+    >
+      CHEESE ON TOAST
+       - 
+      400
+      g
+    </p>
+  </div>
+  <div>
+    <p
+      className="list-item__data"
+    >
+      786
+    </p>
+  </div>
+</Link>
+`;

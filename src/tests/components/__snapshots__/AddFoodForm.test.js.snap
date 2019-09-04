@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render add food form correctly 1`] = `
+<div>
+  <div
+    className="content-container__background"
+  >
+    <div
+      className="content-container__form__update"
+    >
+      <form
+        className="form__update"
+        onSubmit={[Function]}
+      >
+        <h1
+          className="page-header__title-update"
+        >
+           
+           
+        </h1>
+        <span
+          className="span-container__update"
+        >
+          <div
+            className="content-container__update-titles"
+          >
+            <h3
+              className="form__heading__update"
+            >
+              Number of Servings:
+            </h3>
+            <h3
+              className="form__heading__update"
+            >
+              Serving Size: 
+            </h3>
+          </div>
+          <div
+            className="content-container__update"
+          >
+            <input
+              className="text-input__update-form"
+              id="number-of-servings"
+              onChange={[Function]}
+              type="text"
+              value="1"
+            />
+            <input
+              className="text-input__update-form"
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+        </span>
+        <UpdateSummary
+          data={
+            Object {
+              "calories": 0,
+              "carbs": 0,
+              "fat": 0,
+              "targets": Object {
+                "calorieTarget": 0,
+                "carbsTarget": 0,
+                "fatTarget": 0,
+              },
+            }
+          }
+        />
+        <button
+          className="button button--form"
+        >
+          Add Food
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Should render add food form with filter data 1`] = `
+<div>
+  <div
+    className="content-container__background"
+  >
+    <div
+      className="content-container__form__update"
+    >
+      <form
+        className="form__update"
+        onSubmit={[Function]}
+      >
+        <h1
+          className="page-header__title-update"
+        >
+           
+           
+        </h1>
+        <span
+          className="span-container__update"
+        >
+          <div
+            className="content-container__update-titles"
+          >
+            <h3
+              className="form__heading__update"
+            >
+              Number of Servings:
+            </h3>
+            <h3
+              className="form__heading__update"
+            >
+              Serving Size: 
+            </h3>
+          </div>
+          <div
+            className="content-container__update"
+          >
+            <input
+              className="text-input__update-form"
+              id="number-of-servings"
+              onChange={[Function]}
+              type="text"
+              value="1"
+            />
+            <input
+              className="text-input__update-form"
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+        </span>
+        <UpdateSummary
+          data={
+            Object {
+              "calories": 0,
+              "carbs": 0,
+              "fat": 0,
+              "targets": Object {
+                "calorieTarget": 0,
+                "carbsTarget": 0,
+                "fatTarget": 0,
+              },
+            }
+          }
+        />
+        <button
+          className="button button--form"
+        >
+          Add Food
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Should render add food form with food data 1`] = `
+<div>
+  <div
+    className="content-container__background"
+  >
+    <div
+      className="content-container__form__update"
+    >
+      <form
+        className="form__update"
+        onSubmit={[Function]}
+      >
+        <h1
+          className="page-header__title-update"
+        >
+           
+          BEANS
+           
+        </h1>
+        <span
+          className="span-container__update"
+        >
+          <div
+            className="content-container__update-titles"
+          >
+            <h3
+              className="form__heading__update"
+            >
+              Number of Servings:
+            </h3>
+            <h3
+              className="form__heading__update"
+            >
+              Serving Size: 
+            </h3>
+          </div>
+          <div
+            className="content-container__update"
+          >
+            <input
+              className="text-input__update-form"
+              id="number-of-servings"
+              onChange={[Function]}
+              type="text"
+              value="1"
+            />
+            <input
+              className="text-input__update-form"
+              onChange={[Function]}
+              type="text"
+              value="300g"
+            />
+          </div>
+        </span>
+        <UpdateSummary
+          data={
+            Object {
+              "calories": 670,
+              "carbs": 0,
+              "fat": 0,
+              "targets": Object {
+                "calorieTarget": 0,
+                "carbsTarget": 0,
+                "fatTarget": 0,
+              },
+            }
+          }
+        />
+        <button
+          className="button button--form"
+        >
+          Add Food
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,6 @@
+.content-container--chart {
+    padding: 0 $m-size $m-size $m-size;
+    @media (max-width:$tablet-breakpoint) {
+        height: 10em;
+    }
+}

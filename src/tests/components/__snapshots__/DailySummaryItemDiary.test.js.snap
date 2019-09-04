@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render daily summary item correctly 1`] = `
+<div
+  className="header__content2"
+  onClick={[Function]}
+>
+  <Link
+    className="summary__date-filter"
+    to="/diary"
+  >
+    <div
+      className="loader__fade"
+    >
+      <div
+        className="summary-text__diary-mobile-title show-for-mobile "
+        id="display-date-mobile"
+      >
+        31st December
+      </div>
+      <div
+        className="summary-text__date show-for-small-tablet "
+        id="display-date-tablet"
+      >
+        31st December
+      </div>
+      <span
+        className="summary-item--span"
+      >
+        <div
+          className="summary-text__date show-for-large-tablet-and-desktop"
+          id="display-date-desktop"
+        >
+          31st December
+        </div>
+        <div>
+          <span
+            className="summary-item--span"
+          >
+            <div>
+              <span
+                className="summary-item--span"
+              >
+                <div
+                  className="summary-text__container"
+                >
+                  <div
+                    className="summary-text"
+                    id="target"
+                  >
+                    0
+                  </div>
+                  <div
+                    className="summary-text__small blue"
+                  >
+                    target
+                  </div>
+                </div>
+                <div
+                  className="left-space"
+                >
+                  -
+                </div>
+              </span>
+            </div>
+            <div>
+              <span
+                className="summary-item--span"
+              >
+                <div
+                  className="summary-text__container red left-space"
+                >
+                  <div
+                    className="summary-text"
+                    id="daily-total"
+                  >
+                    640
+                  </div>
+                  <div
+                    className="summary-text__small blue"
+                  >
+                    food
+                  </div>
+                </div>
+                <div
+                  className="left-space"
+                >
+                  +
+                </div>
+              </span>
+            </div>
+            <div>
+              <span
+                className="summary-item--span"
+              >
+                <div
+                  className="summary-text__container green left-space"
+                >
+                  <div
+                    className="summary-text"
+                    id="exercise-daily-total"
+                  >
+                    340
+                  </div>
+                  <div
+                    className="summary-text__small blue"
+                  >
+                    exercise
+                  </div>
+                </div>
+                <div
+                  className="left-space"
+                >
+                  =
+                </div>
+              </span>
+            </div>
+            <div
+              className="summary-text__container red left-space"
+            >
+              <div
+                className="summary-text"
+                id="difference"
+              >
+                -300
+              </div>
+              <div
+                className="summary-text__small blue"
+              >
+                total
+              </div>
+            </div>
+          </span>
+        </div>
+      </span>
+      <MultiColorProgressBarContainer
+        data={
+          Object {
+            "combinedTotal": 300,
+            "target": 0,
+          }
+        }
+      />
+    </div>
+  </Link>
+</div>
+`;

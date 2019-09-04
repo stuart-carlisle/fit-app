@@ -2,24 +2,37 @@
 
 exports[`Should render login page correctly 1`] = `
 <div
-  className="box-layout"
+  className="loader__fade"
 >
   <div
-    className="box-layout__box"
+    className="box-layout"
   >
-    <h1
-      className="box-layout__title"
+    <div
+      className="box-layout__box"
     >
-      Boilerplate
-    </h1>
-    <p>
-      Tagline for app
-    </p>
-    <button
-      className="button"
-    >
-      Login with Google
-    </button>
+      <img
+        className="image"
+        src="/images/running-man-with-title.png"
+      />
+      <div
+        className="box-layout__title"
+      >
+        <div>
+          <input
+            className="button__image"
+            onClick={[Function]}
+            src="/images/google-button-pressed.png"
+            type="image"
+          />
+          <input
+            className="button__image"
+            onClick={[Function]}
+            src="/images/twitter-button-pressed.png"
+            type="image"
+          />
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;

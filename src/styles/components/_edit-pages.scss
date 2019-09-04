@@ -1,0 +1,8 @@
+.update-summary_item {
+    width: 12rem;
+    margin: 0 0 $s-size 0;
+    @media (max-width:$tablet-breakpoint) {
+        width:8rem;
+        margin:0 0.8rem $s-size 0;
+    }
+}

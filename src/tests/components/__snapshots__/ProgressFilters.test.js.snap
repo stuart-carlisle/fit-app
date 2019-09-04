@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the progress filters correctly 1`] = `
+<div>
+  <button
+    className="button__back-button"
+    onClick={[Function]}
+  >
+    <img
+      className="image__header"
+      src="/images/back-arrow.svg"
+    />
+  </button>
+  <div
+    className="page-header__filter page-header__filter--with-back"
+  >
+    <div
+      className="content-container"
+    >
+      <div
+        className="header__content--filters"
+      >
+        <form
+          className="filters-text-input__span-container"
+          onSubmit={[Function]}
+        >
+          <div
+            className="input-group__item-page-header"
+          >
+            <select
+              className="minimal minimal--chart-filter"
+              onChange={[Function]}
+              value="calorie-tracker"
+            >
+              <option
+                value="calorie-tracker"
+              >
+                CALORIE TRACKER
+              </option>
+              <option
+                value="weight-tracker"
+              >
+                WEIGHT TRACKER
+              </option>
+            </select>
+          </div>
+          <div
+            className="input-group__item-page-header"
+          >
+            <select
+              className="minimal minimal--chart-filter"
+              onChange={[Function]}
+              value="week"
+            >
+              <option
+                value="week"
+              >
+                Last Week
+              </option>
+              <option
+                value="fortnight"
+              >
+                Last 2 Weeks
+              </option>
+              <option
+                value="2months"
+              >
+                2 Months
+              </option>
+            </select>
+          </div>
+          <button
+            className="button filters-button--form-page-header"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

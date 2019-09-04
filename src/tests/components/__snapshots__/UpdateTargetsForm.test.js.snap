@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render update personal details form correctly 1`] = `
+<div>
+  <div
+    className="content-container__background"
+  >
+    <div
+      className="content-container__form__update"
+    >
+      <form
+        className="form__update"
+        onSubmit={[Function]}
+      >
+        <span
+          className="span-container__update"
+        >
+          <div
+            className="content-container__update-titles"
+          >
+            <h3
+              className="form__heading__update"
+            >
+              Daily Energy Target:
+            </h3>
+            <h3
+              className="form__heading__update"
+            >
+              Daily Carbs Target:
+            </h3>
+            <h3
+              className="form__heading__update"
+            >
+              Daily Fat Target:
+            </h3>
+          </div>
+          <div
+            className="content-container__update"
+          >
+            <input
+              className="text-input__update-form"
+              onChange={[Function]}
+              placeholder="ENTER CALORIE TARGET"
+              type="text"
+              value="3200"
+            />
+            <input
+              className="text-input__update-form"
+              onChange={[Function]}
+              placeholder="ENTER CARBOHYDRATE TARGET"
+              type="text"
+              value="300"
+            />
+            <input
+              className="text-input__update-form"
+              onChange={[Function]}
+              placeholder="ENTER FAT TARGET"
+              type="text"
+              value="45"
+            />
+          </div>
+        </span>
+        <button
+          className="button button--form"
+        >
+          Update Targets
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

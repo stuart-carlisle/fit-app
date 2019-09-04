@@ -1,5 +1,5 @@
 .page-header{
-    background: $off-white;
+    background: lighten($color: $blue, $amount: 45%);
     margin: $l-size;
     padding: $l-size 0;
 }
@@ -9,9 +9,46 @@
 }
 
 .page-header__title{
-    font-weight: 300;
-    margin: 0;
-    span{
-        font-weight: 700;
+    font-family: "Agency FB";
+    margin: 0 0 0 0;
+    color: $blue;
+    font-size: 4rem;
+    @media (max-width:$tablet-breakpoint) {
+        margin:0 0;
+        padding:0 0.8rem;
+        font-size: 2rem;
+    }
+}
+
+.page-header__title-update {
+    font-family: "Agency FB";
+    margin: 0 0 0 0;
+    color: $blue;
+    font-size: 4rem;
+    @media (max-width:$tablet-breakpoint) {
+        margin:0 0;
+        padding:0;
+        font-size: 2rem;
+    }
+}
+
+.page-header__text{
+    font-family: "Agency FB";
+    color: $blue;
+}
+
+.page-header__margin {
+    margin-top:$s-size;
+}
+
+.content-container__page-header {
+    display:flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 80rem;
+    padding: 0 $m-size;
+    justify-content: space-between;
+    @media (max-width:$tablet-breakpoint) {
+        width:100%
     }
 }

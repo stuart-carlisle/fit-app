@@ -10,3 +10,12 @@
     height: 6rem;
     width: 6rem;
 }
+
+.loader__fade {
+    opacity:0;
+    transition: opacity 0.5s ease-in;
+}
+
+.loader__fade--start{
+    opacity: 1;
+}

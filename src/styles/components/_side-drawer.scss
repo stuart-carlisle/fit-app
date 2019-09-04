@@ -1,0 +1,65 @@
+.side-drawer {
+    height: 100%;
+    background: $blue;
+    box-shadow: 1px 0 7px $blue;
+    position:fixed;
+    top:0;
+    left:0;
+    width: 70%;
+    max-width: 450px;
+    z-index: 3;
+    overflow:hidden;
+    // transform: translateX(-100%);
+    // transition: transform 1s ease-out 2s;
+}
+
+.side-drawer.open {
+    animation: side-draw-open-animation 1s;
+    animation-fill-mode: forwards;
+}
+
+.side-drawer.close {
+    animation: side-draw-close-animation 1s;
+    animation-fill-mode: forwards;
+}
+
+.side-drawer__hidden {
+    transform: translateX(-100%);
+    display: hidden;
+}
+
+// .side-drawer.animate-forward {
+//      transform: translateX(0)
+//     // animation: side-draw-open-animation 1s;
+//     // animation-fill-mode: forwards;
+// }
+
+// .side-drawer.animate-backward {
+//     // animation: side-draw-close-animation 1s;
+//     // animation-fill-mode: forwards;
+// }
+
+// .side-drawer-hidden {
+//     height: 100%;
+//     background: $blue;
+//     box-shadow: 1px 0 7px $blue;
+//     position:fixed;
+//     top:0;
+//     left:0;
+//     width: 70%;
+//     max-width: 450px;
+//     z-index: 3;
+//     transform: translateX(-100);
+//     display:none;
+
+// }
+
+@keyframes side-draw-close-animation {
+    0% {transform: translateX(0)}
+    100%{transform: translateX(-100%)}
+}
+
+@keyframes side-draw-open-animation {
+    0% {transform: translateX(-100%)}
+    100%{transform: translateX(0)}
+}

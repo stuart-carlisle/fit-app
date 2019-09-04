@@ -1,11 +1,47 @@
 .show-for-mobile{
-    @media (min-width: $desktop-breakpoint) {
+    @media (min-width: $tablet-breakpoint) {
         display: none;
+    }
+}
+
+.show-for-tablet{
+    @media (max-width: $tablet-breakpoint - 0.1rem) {
+        display: none;
+    }
+}
+
+.show-for-large-tablet-and-desktop{
+    @media (max-width: $large-tablet-breakpoint - 0.1rem){
+        display:none;
+    }
+}
+
+.show-for-small-tablet{
+    @media (max-width: $tablet-breakpoint - 0.1rem), (min-width: $large-tablet-breakpoint){
+        display:none;
     }
 }
 
 .show-for-desktop{
     @media (max-width: $desktop-breakpoint - 0.1rem) {
+        display: none;
+    }
+}
+
+.show-chart-small{
+    @media (min-width: 30rem) {
+        display: none;
+    }
+}
+
+.show-chart-large{
+    @media (max-width: 60rem - 0.1rem) {
+        display: none;
+    }
+}
+
+.show-chart-medium{
+    @media (max-width: 30rem - 0.1rem), (min-width: 60rem) {
         display: none;
     }
 }

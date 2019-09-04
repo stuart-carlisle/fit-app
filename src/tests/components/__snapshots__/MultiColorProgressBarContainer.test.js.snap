@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render the multicolor progress bar container correctly 1`] = `
+<div>
+  <MultiColorProgressBar
+    readings={
+      Array [
+        Object {
+          "color": "#4472C7",
+          "value": 15,
+        },
+        Object {
+          "color": "#48e880",
+          "value": 85,
+        },
+      ]
+    }
+  />
+</div>
+`;

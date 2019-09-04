@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render the chart component with valid data 1`] = `
+<div>
+  <div
+    className="content-container content-container--chart show-chart-large"
+  >
+    <Line
+      data={
+        Object {
+          "datasets": Array [
+            Object {
+              "borderColor": "rgba(68, 114, 199, 0.6)",
+              "data": Array [
+                Object {
+                  "x": 0,
+                  "y": 487,
+                },
+                Object {
+                  "x": -172800000,
+                  "y": 342,
+                },
+              ],
+              "fill": false,
+              "label": "Calories",
+              "lineTension": 0.3,
+              "pointBackgroundColor": Array [
+                "rgba(255, 99, 132, 0.6)",
+                "rgba(54, 162, 235, 0.6)",
+                "rgba(255, 206, 86, 0.6)",
+                "rgba(75, 192, 192, 0.6)",
+                "rgba(153, 102, 255, 0.6)",
+                "rgba(255, 159, 64, 0.6)",
+                "rgba(255, 99, 132, 0.6)",
+                "rgba(255, 99, 132, 0.6)",
+              ],
+            },
+          ],
+        }
+      }
+      height={200}
+      options={
+        Object {
+          "legend": Object {
+            "display": false,
+            "position": "right",
+          },
+          "scales": Object {
+            "xAxes": Array [
+              Object {
+                "scaleLabel": Object {
+                  "display": true,
+                  "fontColor": "#4472C7",
+                  "fontFamily": "Agency FB",
+                  "fontSize": 20,
+                  "labelString": "DATE",
+                },
+                "ticks": Object {
+                  "callback": [Function],
+                  "fontColor": "#4472C7",
+                  "fontFamily": "Agency FB",
+                  "fontSize": 15,
+                  "max": -3600000,
+                  "min": -522000000,
+                },
+                "time": Object {
+                  "unit": "day",
+                },
+                "type": "linear",
+              },
+            ],
+            "yAxes": Array [
+              Object {
+                "scaleLabel": Object {
+                  "display": true,
+                  "fontColor": "#4472C7",
+                  "fontFamily": "Agency FB",
+                  "fontSize": 20,
+                  "labelString": "CALORIES PER DAY",
+                },
+                "ticks": Object {
+                  "fontColor": "#4472C7",
+                  "fontFamily": "Agency FB",
+                  "fontSize": 15,
+                },
+              },
+            ],
+          },
+          "title": Object {
+            "display": true,
+            "fontColor": "#4472C7",
+            "fontFamily": "Agency FB",
+            "fontSize": 25,
+            "text": "CALORIE TRACKER FOR THE LAST WEEK",
+          },
+        }
+      }
+    />
+  </div>
+  <div
+    className="content-container content-container--chart show-chart-small"
+  >
+    <Line
+      data={
+        Object {
+          "datasets": Array [
+            Object {
+              "borderColor": "rgba(68, 114, 199, 0.6)",
+              "data": Array [
+                Object {
+                  "x": 0,
+                  "y": 487,
+                },
+                Object {
+                  "x": -172800000,
+                  "y": 342,
+                },
+              ],
+              "fill": false,
+              "label": "Calories",
+              "lineTension": 0.3,
+              "pointBackgroundColor": Array [
+                "rgba(255, 99, 132, 0.6)",
+                "rgba(54, 162, 235, 0.6)",
+                "rgba(255, 206, 86, 0.6)",
+                "rgba(75, 192, 192, 0.6)",
+                "rgba(153, 102, 255, 0.6)",
+                "rgba(255, 159, 64, 0.6)",
+                "rgba(255, 99, 132, 0.6)",
+                "rgba(255, 99, 132, 0.6)",
+              ],
+            },
+          ],
+        }
+      }
+      height={300}
+      options={
+        Object {
+          "legend": Object {
+            "display": false,
+            "position": "right",
+          },
+          "scales": Object {
+            "xAxes": Array [
+              Object {
+                "scaleLabel": Object {
+                  "display": true,
+                  "fontColor": "#4472C7",
+                  "fontFamily": "Agency FB",
+                  "fontSize": 20,
+                  "labelString": "DATE",
+                },
+                "ticks": Object {
+                  "callback": [Function],
+                  "fontColor": "#4472C7",
+                  "fontFamily": "Agency FB",
+                  "fontSize": 15,
+                  "max": -3600000,
+                  "min": -522000000,
+                },
+                "time": Object {
+                  "unit": "day",
+                },
+                "type": "linear",
+              },
+            ],
+            "yAxes": Array [
+              Object {
+                "scaleLabel": Object {
+                  "display": true,
+                  "fontColor": "#4472C7",
+                  "fontFamily": "Agency FB",
+                  "fontSize": 20,
+                  "labelString": "CALORIES PER DAY",
+                },
+                "ticks": Object {
+                  "fontColor": "#4472C7",
+                  "fontFamily": "Agency FB",
+                  "fontSize": 15,
+                },
+              },
+            ],
+          },
+          "title": Object {
+            "display": true,
+            "fontColor": "#4472C7",
+            "fontFamily": "Agency FB",
+            "fontSize": 25,
+            "text": "CALORIE TRACKER FOR THE LAST WEEK",
+          },
+        }
+      }
+    />
+  </div>
+  <div
+    className="content-container content-container--chart show-chart-medium"
+  >
+    <Line
+      data={
+        Object {
+          "datasets": Array [
+            Object {
+              "borderColor": "rgba(68, 114, 199, 0.6)",
+              "data": Array [
+                Object {
+                  "x": 0,
+                  "y": 487,
+                },
+                Object {
+                  "x": -172800000,
+                  "y": 342,
+                },
+              ],
+              "fill": false,
+              "label": "Calories",
+              "lineTension": 0.3,
+              "pointBackgroundColor": Array [
+                "rgba(255, 99, 132, 0.6)",
+                "rgba(54, 162, 235, 0.6)",
+                "rgba(255, 206, 86, 0.6)",
+                "rgba(75, 192, 192, 0.6)",
+                "rgba(153, 102, 255, 0.6)",
+                "rgba(255, 159, 64, 0.6)",
+                "rgba(255, 99, 132, 0.6)",
+                "rgba(255, 99, 132, 0.6)",
+              ],
+            },
+          ],
+        }
+      }
+      height={200}
+      options={
+        Object {
+          "legend": Object {
+            "display": false,
+            "position": "right",
+          },
+          "scales": Object {
+            "xAxes": Array [
+              Object {
+                "scaleLabel": Object {
+                  "display": true,
+                  "fontColor": "#4472C7",
+                  "fontFamily": "Agency FB",
+                  "fontSize": 20,
+                  "labelString": "DATE",
+                },
+                "ticks": Object {
+                  "callback": [Function],
+                  "fontColor": "#4472C7",
+                  "fontFamily": "Agency FB",
+                  "fontSize": 15,
+                  "max": -3600000,
+                  "min": -522000000,
+                },
+                "time": Object {
+                  "unit": "day",
+                },
+                "type": "linear",
+              },
+            ],
+            "yAxes": Array [
+              Object {
+                "scaleLabel": Object {
+                  "display": true,
+                  "fontColor": "#4472C7",
+                  "fontFamily": "Agency FB",
+                  "fontSize": 20,
+                  "labelString": "CALORIES PER DAY",
+                },
+                "ticks": Object {
+                  "fontColor": "#4472C7",
+                  "fontFamily": "Agency FB",
+                  "fontSize": 15,
+                },
+              },
+            ],
+          },
+          "title": Object {
+            "display": true,
+            "fontColor": "#4472C7",
+            "fontFamily": "Agency FB",
+            "fontSize": 25,
+            "text": "CALORIE TRACKER FOR THE LAST WEEK",
+          },
+        }
+      }
+    />
+  </div>
+</div>
+`;

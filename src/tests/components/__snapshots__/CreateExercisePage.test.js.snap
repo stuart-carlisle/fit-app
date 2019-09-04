@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render CreateExercisePage with props correctly 1`] = `
+<div>
+  <Link
+    className="button__back-button"
+    to="/add-exercise"
+  >
+    <img
+      className="image__header"
+      src="/images/back-arrow.svg"
+    />
+  </Link>
+  <div
+    className="page-header__filter page-header__filter--with-back"
+  >
+    <div
+      className="content-container"
+    >
+      <h1
+        className="page-header__title"
+      >
+        CREATE EXERCISE
+      </h1>
+    </div>
+  </div>
+  <div
+    className="show-for-mobile page-header__margin"
+  />
+  <div
+    className="content-container"
+  >
+    <Connect(ExerciseForm)
+      id="exercise-form"
+      onSubmit={[Function]}
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render AddFoodConfirmationPage with props correctly 1`] = `
+<div>
+  <Link
+    className="button__back-button"
+    to="/add"
+  >
+    <img
+      className="image__header"
+      src="/images/back-arrow.svg"
+    />
+  </Link>
+  <div
+    className="page-header__filter page-header__filter--with-back"
+  >
+    <div
+      className="content-container"
+    >
+      <h1
+        className="page-header__title"
+      >
+        ADD FOOD
+      </h1>
+    </div>
+  </div>
+  <div
+    className="show-for-mobile page-header__margin"
+  />
+  <div
+    className="content-container"
+  >
+    <Connect(AddFoodForm)
+      food={
+        Object {
+          "description": "CHEESE ON TOAST",
+          "diaryDate": 0,
+          "id": "2",
+          "lastUsed": 0,
+          "meal": "lunch",
+          "numberOfServings": "1",
+          "nutrition": Object {
+            "energy": Object {
+              "amount": "340",
+            },
+            "protein": Object {
+              "amount": "2",
+              "unit": "g",
+            },
+            "satFat": Object {
+              "amount": "0.5",
+              "unit": "g",
+            },
+            "sugars": Object {
+              "amount": "3",
+              "unit": "g",
+            },
+            "totalCarbs": Object {
+              "amount": "34",
+              "unit": "g",
+            },
+            "totalFat": Object {
+              "amount": "1.2",
+              "unit": "g",
+            },
+          },
+          "serving": Object {
+            "servingSize": Object {
+              "size": "200",
+              "unit": "g",
+            },
+            "servingsPerContainer": "1",
+          },
+        }
+      }
+      id="add-food-form"
+      onSubmit={[Function]}
+      targets={
+        Object {
+          "dailyCarbsTarget": "200",
+          "dailyEnergyTarget": "2000",
+          "dailyFatTarget": "4",
+        }
+      }
+    />
+  </div>
+</div>
+`;

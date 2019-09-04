@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render add food list alt filters correctly 1`] = `
+<div
+  className="header__content--filters"
+>
+  <form
+    className="filters-text-input__span-container"
+    onSubmit={[Function]}
+  >
+    <div
+      className="input-group__item-page-header"
+    >
+      <input
+        className="filters-text-input"
+        onChange={[Function]}
+        placeholder="SEARCH FOODS"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="input-group__item-page-header"
+    >
+      <select
+        className="minimal"
+        onChange={[Function]}
+        value="alphabetical"
+      >
+        <option
+          value="date"
+        >
+          DATE
+        </option>
+        <option
+          value="alphabetical"
+        >
+          ALPHABETICAL
+        </option>
+      </select>
+    </div>
+    <button
+      className="button filters-button--form-page-header"
+    >
+      SEARCH ONLINE
+    </button>
+  </form>
+</div>
+`;
+
+exports[`Should render add food list filters correctly 1`] = `
+<div
+  className="header__content--filters"
+>
+  <form
+    className="filters-text-input__span-container"
+    onSubmit={[Function]}
+  >
+    <div
+      className="input-group__item-page-header"
+    >
+      <input
+        className="filters-text-input"
+        onChange={[Function]}
+        placeholder="SEARCH FOODS"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="input-group__item-page-header"
+    >
+      <select
+        className="minimal"
+        onChange={[Function]}
+        value="date"
+      >
+        <option
+          value="date"
+        >
+          DATE
+        </option>
+        <option
+          value="alphabetical"
+        >
+          ALPHABETICAL
+        </option>
+      </select>
+    </div>
+    <button
+      className="button filters-button--form-page-header"
+    >
+      SEARCH ONLINE
+    </button>
+  </form>
+</div>
+`;

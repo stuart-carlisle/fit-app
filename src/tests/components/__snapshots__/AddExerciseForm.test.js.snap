@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render add exercise form correctly 1`] = `
+<div>
+  <div
+    className="content-container__background"
+  >
+    <div
+      className="content-container__form__update"
+    >
+      <form
+        className="form"
+        onSubmit={[Function]}
+      >
+        <h1
+          className="page-header__title-update"
+        >
+           
+           
+        </h1>
+        <span
+          className="text-input__span-container-form"
+        >
+          <div
+            className="content-container__update-titles"
+          >
+            <h3
+              className="form__heading__update"
+            >
+              Exercise Time (mins):
+            </h3>
+            <h3
+              className="form__heading__update"
+            >
+              Energy (calories): 
+            </h3>
+          </div>
+          <div
+            className="content-container__update"
+          >
+            <input
+              className="text-input__update-form"
+              onChange={[Function]}
+              placeholder="Enter a Duration"
+              type="text"
+              value={null}
+            />
+            <input
+              className="text-input__update-form"
+              onChange={[Function]}
+              placeholder="Energy Used"
+              type="text"
+              value=""
+            />
+          </div>
+        </span>
+        <button
+          className="button button--form"
+        >
+          Add Exercise
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Should render add exercise form with exercise data 1`] = `
+<div>
+  <div
+    className="content-container__background"
+  >
+    <div
+      className="content-container__form__update"
+    >
+      <form
+        className="form"
+        onSubmit={[Function]}
+      >
+        <h1
+          className="page-header__title-update"
+        >
+           
+          RUNNING
+           
+        </h1>
+        <span
+          className="text-input__span-container-form"
+        >
+          <div
+            className="content-container__update-titles"
+          >
+            <h3
+              className="form__heading__update"
+            >
+              Exercise Time (mins):
+            </h3>
+            <h3
+              className="form__heading__update"
+            >
+              Energy (calories): 
+            </h3>
+          </div>
+          <div
+            className="content-container__update"
+          >
+            <input
+              className="text-input__update-form"
+              onChange={[Function]}
+              placeholder="Enter a Duration"
+              type="text"
+              value={195}
+            />
+            <input
+              className="text-input__update-form"
+              onChange={[Function]}
+              placeholder="Energy Used"
+              type="text"
+              value={122}
+            />
+          </div>
+        </span>
+        <button
+          className="button button--form"
+        >
+          Add Exercise
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Should render add exercise form with filter data 1`] = `
+<div>
+  <div
+    className="content-container__background"
+  >
+    <div
+      className="content-container__form__update"
+    >
+      <form
+        className="form"
+        onSubmit={[Function]}
+      >
+        <h1
+          className="page-header__title-update"
+        >
+           
+           
+        </h1>
+        <span
+          className="text-input__span-container-form"
+        >
+          <div
+            className="content-container__update-titles"
+          >
+            <h3
+              className="form__heading__update"
+            >
+              Exercise Time (mins):
+            </h3>
+            <h3
+              className="form__heading__update"
+            >
+              Energy (calories): 
+            </h3>
+          </div>
+          <div
+            className="content-container__update"
+          >
+            <input
+              className="text-input__update-form"
+              onChange={[Function]}
+              placeholder="Enter a Duration"
+              type="text"
+              value={null}
+            />
+            <input
+              className="text-input__update-form"
+              onChange={[Function]}
+              placeholder="Energy Used"
+              type="text"
+              value=""
+            />
+          </div>
+        </span>
+        <button
+          className="button button--form"
+        >
+          Add Exercise
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

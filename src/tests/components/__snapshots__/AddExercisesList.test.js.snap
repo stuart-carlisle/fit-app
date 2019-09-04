@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render add exercise list with empty message 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className=""
+    >
+      Exercise
+    </div>
+    <div
+      className="show-for-tablet"
+    >
+      Calories Burned
+    </div>
+    <div
+      className="show-for-mobile"
+    >
+      Cals Burned
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <div
+      className="list-item list-item--message"
+    >
+      <span>
+        No Exercises In History
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Should render add exercise list with exercises 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className=""
+    >
+      Exercise
+    </div>
+    <div
+      className="show-for-tablet"
+    >
+      Calories Burned
+    </div>
+    <div
+      className="show-for-mobile"
+    >
+      Cals Burned
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <AddExercisesListItem
+      description="RUNNING"
+      diaryDate={-345600000}
+      energy="122"
+      id="1"
+      key="1"
+      lastUsed={-345600000}
+      time="195"
+      type="Cardiovascular"
+    />
+    <AddExercisesListItem
+      description="JUMPING"
+      diaryDate={0}
+      energy="29"
+      id="2"
+      key="2"
+      lastUsed={0}
+      time="90"
+      type="Strength"
+    />
+    <AddExercisesListItem
+      description="HOPPING"
+      diaryDate={345600000}
+      energy="87"
+      id="3"
+      key="3"
+      lastUsed={345600000}
+      time="13"
+      type="Cardiovascular"
+    />
+  </div>
+</div>
+`;
+
+exports[`Should render add exercise list with more than 10 items to only show 10 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className=""
+    >
+      Exercise
+    </div>
+    <div
+      className="show-for-tablet"
+    >
+      Calories Burned
+    </div>
+    <div
+      className="show-for-mobile"
+    >
+      Cals Burned
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <AddExercisesListItem
+      description="RUNNING"
+      diaryDate={-345600000}
+      energy="122"
+      id="1"
+      key="1"
+      lastUsed={-345600000}
+      time="195"
+      type="Cardiovascular"
+    />
+    <AddExercisesListItem
+      description="JUMPING"
+      diaryDate={0}
+      energy="29"
+      id="2"
+      key="2"
+      lastUsed={0}
+      time="90"
+      type="Strength"
+    />
+    <AddExercisesListItem
+      description="HOPPING"
+      diaryDate={345600000}
+      energy="87"
+      id="3"
+      key="3"
+      lastUsed={345600000}
+      time="13"
+      type="Cardiovascular"
+    />
+    <AddExercisesListItem
+      description="RUNNING"
+      diaryDate={-345600000}
+      energy="122"
+      id="1"
+      key="1"
+      lastUsed={-345600000}
+      time="195"
+      type="Cardiovascular"
+    />
+    <AddExercisesListItem
+      description="JUMPING"
+      diaryDate={0}
+      energy="29"
+      id="2"
+      key="2"
+      lastUsed={0}
+      time="90"
+      type="Strength"
+    />
+    <AddExercisesListItem
+      description="HOPPING"
+      diaryDate={345600000}
+      energy="87"
+      id="3"
+      key="3"
+      lastUsed={345600000}
+      time="13"
+      type="Cardiovascular"
+    />
+    <AddExercisesListItem
+      description="RUNNING"
+      diaryDate={-345600000}
+      energy="122"
+      id="1"
+      key="1"
+      lastUsed={-345600000}
+      time="195"
+      type="Cardiovascular"
+    />
+    <AddExercisesListItem
+      description="JUMPING"
+      diaryDate={0}
+      energy="29"
+      id="2"
+      key="2"
+      lastUsed={0}
+      time="90"
+      type="Strength"
+    />
+    <AddExercisesListItem
+      description="HOPPING"
+      diaryDate={345600000}
+      energy="87"
+      id="3"
+      key="3"
+      lastUsed={345600000}
+      time="13"
+      type="Cardiovascular"
+    />
+    <AddExercisesListItem
+      description="RUNNING"
+      diaryDate={-345600000}
+      energy="122"
+      id="1"
+      key="1"
+      lastUsed={-345600000}
+      time="195"
+      type="Cardiovascular"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render the daily summary component correctly 1`] = `
+<div>
+  <Connect(DailySummaryItem)
+    date={"1969-12-31T23:00:00.000Z"}
+    key="-3600000"
+  />
+  <Connect(DailySummaryItem)
+    date={"1969-12-30T23:00:00.000Z"}
+    key="-90000000"
+  />
+  <Connect(DailySummaryItem)
+    date={"1969-12-29T23:00:00.000Z"}
+    key="-176400000"
+  />
+  <Connect(DailySummaryItem)
+    date={"1969-12-28T23:00:00.000Z"}
+    key="-262800000"
+  />
+</div>
+`;

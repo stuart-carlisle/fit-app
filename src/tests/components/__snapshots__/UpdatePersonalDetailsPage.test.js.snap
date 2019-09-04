@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render UpdatePersonalDetailsPage with props correctly 1`] = `
+<div>
+  <button
+    className="button__back-button"
+    onClick={[Function]}
+  >
+    <img
+      className="image__header"
+      src="/images/back-arrow.svg"
+    />
+  </button>
+  <div
+    className="page-header__filter page-header__filter--with-back"
+  >
+    <div
+      className="content-container"
+    >
+      <h1
+        className="page-header__title"
+      >
+        RECORD WEIGHT
+      </h1>
+    </div>
+  </div>
+  <div
+    className="show-for-mobile page-header__margin"
+  />
+  <div
+    className="content-container"
+  >
+    <UpdatePersonalDetailsForm
+      onSubmit={[Function]}
+    />
+  </div>
+</div>
+`;

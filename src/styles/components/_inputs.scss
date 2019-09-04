@@ -4,13 +4,75 @@
     font-size:$font-size-large;
     font-weight: 300;
     padding: $s-size;
+    width:100%;
+    font-family: "Agency FB";
+    margin:0 $s-size 0 0;
+    color:$blue;
+    @media (max-width:$tablet-breakpoint) {
+        margin:0;
+        padding:0.6rem;
+        font-size:$font-size-small;
+        height: 30px;
+    }
 }
 
 .select {
     @extend .text-input;
 }
 
+select:invalid { color: gray; }
+
 .text-area {
     @extend .text-input;
     height: 10rem;
+}
+
+.text-input--span {
+    width:auto;
+    margin: 0 0 0 0;
+}
+
+.text-input__span-container {
+    display:flex;
+    justify-content: space-between;
+    @media (max-width:$large-tablet-breakpoint) {
+        flex-direction: column;
+        align-content: center;
+    }
+}
+
+.text-input__span-container-form {
+    display:flex;
+    justify-content: space-between;
+    @media (max-width:$tablet-breakpoint) {
+        //margin: 0 0.2rem;
+    }
+}
+
+.text-input__span-container2 {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.text-input__span-container3 {
+    display:flex;
+    justify-content: start;
+}
+
+.text-input__form {
+    border: 1px solid #cacccd;
+    height: 50px;
+    font-size:$font-size-large;
+    font-weight: 300;
+    padding: $s-size;
+    width:100%;
+    font-family: "Agency FB";
+    margin:0 $s-size 0 0;
+    color:$blue;
+    @media (max-width:$tablet-breakpoint) {
+        margin:0 0.2rem 0 0.2rem;
+        padding:0.6rem;
+        font-size:$font-size-small;
+        height: 30px;
+    }
 }

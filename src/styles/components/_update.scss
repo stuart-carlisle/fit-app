@@ -1,0 +1,106 @@
+.content-container__update {
+    display:flex;
+    margin: 0;
+    width: 100%;
+    padding: 0 $m-size;
+    justify-content: start;
+    flex-direction: column;
+    @media (max-width:$tablet-breakpoint) {
+        font-size:1.5rem;
+        padding:0 $s-size 0 0;
+    }
+}
+
+.content-container__form__update {
+    margin: 0 auto;
+    max-width: 80rem;
+    padding: 0 $m-size;
+    align-content: center;
+    @media (max-width:$tablet-breakpoint) {
+        padding:0 0.8rem;
+    }
+}
+
+.form__update {
+    display: flex;
+    flex-direction: column;
+    > * {
+        margin-bottom: $m-size;
+    }
+    @media (max-width:$tablet-breakpoint) {
+        > * {
+            margin-bottom: $s-size;
+        }
+    }
+    overflow: auto;
+}
+
+.form__heading__update {
+    padding: $s-size $s-size $s-size $s-size;
+    font-family: "Agency FB";
+    font-size: $font-size-large;
+    color: $blue;
+    margin:0 0 $s-size 0;
+    height: 50px;
+    white-space: nowrap;
+    @media (max-width:$tablet-breakpoint) {
+        padding:0;
+        margin:0 0 $s-size 0;
+        font-size: 1.6rem;
+        white-space: nowrap;
+        height:30px;
+    }
+}
+
+.content-container__update_titles {
+    display:flex;
+    margin: 0;
+    width: 100px;
+    padding: 0 $m-size;
+    justify-content: start;
+    flex-direction: column;
+    @media (max-width:$tablet-breakpoint) {
+        font-size:1.5rem;
+        padding:0;
+    }
+}
+
+.text-input__update-form {
+    border: 1px solid #cacccd;
+    height: 50px;
+    font-size:$font-size-large;
+    font-weight: 300;
+    padding: $s-size;
+    width:100%;
+    font-family: "Agency FB";
+    color:$blue;
+    margin:0 0 $s-size 0;
+    width: 100%;
+    top: 50%;
+    @media (max-width:$tablet-breakpoint) {
+        margin:0 0.4rem 0.8rem 0.4rem;
+        padding:0.6rem;
+        font-size:$font-size-small;
+        height: 30px;
+        width:100%;
+    }
+}
+
+.form__heading__update-summary {
+    padding: $s-size $s-size $s-size $s-size;
+    font-family: "Agency FB";
+    font-size: $font-size-large;
+    color: $blue;
+    margin:0 0 $s-size 0;
+    height: 50px;
+    white-space: nowrap;
+    text-align: center;
+    @media (max-width:$tablet-breakpoint) {
+        padding:0;
+        margin:0 0 $s-size 0;
+        font-size: 1.6rem;
+        white-space: nowrap;
+        height:30px;
+        text-align: center;
+    }
+}

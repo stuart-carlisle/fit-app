@@ -1,18 +1,231 @@
+
 .header {
-    background: $dark-blue;
+    background: white;
+    width:100%;
+    position:sticky;
+    top:0;
+    z-index: 1;
+    height:90px;
+    transition: height 600ms ease, background-color 300ms ease;
+    box-shadow: 0 0px 6px 0 $blue;
+    margin: 0;
+    @media (max-width:$tablet-breakpoint) {
+        height:70px;
+    }
 }
+
+.header__small {
+    @extend .header;
+    animation: header-animation 500ms;
+    animation-fill-mode: forwards;
+    @media (max-width:$tablet-breakpoint) {
+        animation: header-animation-mobile 500ms;
+        animation-fill-mode: forwards;
+    }
+}
+
+@keyframes header-animation {
+    0%   {background: white; height:90px; margin-bottom: 0px}
+    100% {background: $blue; height: 50px;margin-bottom: 60px}
+  }
+
+@keyframes header-animation-mobile {
+    0%   {background: white; height:70px; margin-bottom: 0px}
+    100% {background: $blue; height: 30px;margin-bottom: 60px}
+  }
 
 .header__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: $m-size 0;
+    padding: $s-size 0;
+    width:100%;
+    height:90px;
+    @media (max-width:$tablet-breakpoint) {
+        height:70px;
+        justify-content: space-around;
+    }
+}
+
+.header__content-small {
+    @extend .header__content;
+    padding: 0;
+    animation: header-content-animation 1s;
+    animation-fill-mode: forwards;
+    @media (max-width:$tablet-breakpoint) {
+        height:50px;
+        justify-content: space-around;
+        animation: header-content-animation-mobile 1s;
+        animation-fill-mode: forwards;
+    }
+}
+
+@keyframes header-content-animation {
+    0% {height:90px;}
+    100%{height:50px;}
+}
+
+@keyframes header-content-animation-mobile {
+    0% {height:70px;}
+    100%{height:30px;}
+}
+
+// header contents
+.header__button { //dropdown
+    background: none;
+    border: none;
+    line-height: 1;
+    padding: $s-size;
+    margin: $s-size;
+    outline:none;
+    transition: transform .2s;
+    &:hover,
+    &:active{
+        transform: scale(1.1);
+    }
+    @media (max-width:$tablet-breakpoint) {
+       padding: $s-size $s-size $s-size 0;
+    }
+    @media (min-width:$tablet-breakpoint) and (max-width:$desktop-breakpoint){
+        color:red;
+    }
+}
+
+.header__button:focus {
+    animation: header-button-animation 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes header-button-animation {
+    0% {transform: rotate(0deg);}
+    100%{transform: rotate(90deg);}
+}
+
+
+.header__button-small {
+    @extend .header__button;
+        display:none;
+}
+
+.header__link { //logout button
+    background: none;
+    border: none;
+    color:$blue;
+    font-family: "Agency FB";
+    font-size:32px;
+    font-weight: 300;
+    line-height: 1;
+    padding: $s-size;
+    text-decoration: none;
+    transition: transform .2s;
+    &:hover,
+    &:active{
+        transform: scale(1.1);
+    }
+    @media (max-width:$tablet-breakpoint) {
+        font-size:1.5rem;
+    }
+}
+
+.header__link-small {
+    @extend .header__link;
+        display:none;
+}
+
+.content-container__header-title {
+    margin: 0 auto;
+    max-width: 80rem;
+    padding: 0 0 0 0;
+    @media (max-width:$tablet-breakpoint) {
+        font-size:2rem;
+        width:100%;
+        margin:0;
+        padding:0;
+    }
 }
 
 .header__title {
-    color: white;
+    color: $blue;
+    font-family: "Agency FB";
     text-decoration: none;
+    font-size: 3rem;
     h1 {
         margin: 0;
+        position: relative;
+        left: -27%;
+        white-space: nowrap;
+    }
+    @media (max-width:$tablet-breakpoint) {
+        font-size:1.5rem;
+        h1{
+            position: relative;
+            left: -38%;
+            white-space: nowrap;
+        }
     }
 }
+
+.header__title-small {
+    @extend .header__title;
+    h1 {
+        display:none;
+    }
+}
+
+.header__title-link {
+    color: $blue;
+    font-family: "Agency FB";
+    text-decoration: none;
+}
+
+.header__image {
+    height: 4rem;
+    width: 4rem;
+    margin: 0 $l-size;
+    display: none;
+}
+
+
+.header__image-small { //icons on small header
+    @extend .header__image;
+    display:flex;
+    animation: header-image-animation 1s;
+    animation-fill-mode: forwards;
+    @media (max-width:$tablet-breakpoint) {
+        margin:$s-size;
+        height:2rem;
+        width:2rem;
+    }
+}
+
+@keyframes header-image-animation {
+    0% {opacity:0;}
+    30% {opacity:0;}
+    100%{opacity:100;}
+}
+
+
+///nonheader stuff needs checking
+
+
+
+.header__content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: $s-size 0;
+    width:100%;
+    padding:0 0;
+    @media (min-width: $tablet-breakpoint){
+
+    }
+}
+
+.header__end-item-container {
+    width:112px;
+}
+
+
+
+
+

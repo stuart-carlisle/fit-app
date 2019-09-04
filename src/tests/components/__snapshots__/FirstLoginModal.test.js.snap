@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render first login modal correctly 1`] = `
+<div
+  className="modal open"
+>
+  this is a message
+  <button
+    className="button modal__button"
+    onClick={[Function]}
+  >
+    OK
+  </button>
+</div>
+`;

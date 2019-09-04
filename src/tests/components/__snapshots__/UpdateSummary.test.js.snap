@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render the update summary component correctly 1`] = `
+<div>
+  <span
+    className="text-input__span-container2"
+  >
+    <div
+      className="update-summary_item"
+    >
+      <h3
+        className="form__heading__update-summary"
+      >
+        1400 Cal
+      </h3>
+      <MultiColorProgressBar
+        key="1"
+        readings={
+          Array [
+            Object {
+              "color": "#4472C7",
+              "value": 70,
+            },
+            Object {
+              "color": "#48e880",
+              "value": 30,
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="update-summary_item"
+    >
+      <h3
+        className="form__heading__update-summary"
+      >
+        37g Carbs
+      </h3>
+      <MultiColorProgressBar
+        key="2"
+        readings={
+          Array [
+            Object {
+              "color": "#4472C7",
+              "value": 76,
+            },
+            Object {
+              "color": "#48e880",
+              "value": 24,
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="update-summary_item"
+    >
+      <h3
+        className="form__heading__update-summary"
+      >
+        2g Fats
+      </h3>
+      <MultiColorProgressBar
+        key="3"
+        readings={
+          Array [
+            Object {
+              "color": "#4472C7",
+              "value": 67,
+            },
+            Object {
+              "color": "#48e880",
+              "value": 33,
+            },
+          ]
+        }
+      />
+    </div>
+  </span>
+</div>
+`;
+
+exports[`Should render the update summary component correctly with data greater than targets 1`] = `
+<div>
+  <span
+    className="text-input__span-container2"
+  >
+    <div
+      className="update-summary_item"
+    >
+      <h3
+        className="form__heading__update-summary"
+      >
+        2400 Cal
+      </h3>
+      <MultiColorProgressBar
+        key="1"
+        readings={
+          Array [
+            Object {
+              "color": "#ff0808",
+              "value": 100,
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="update-summary_item"
+    >
+      <h3
+        className="form__heading__update-summary"
+      >
+        56g Carbs
+      </h3>
+      <MultiColorProgressBar
+        key="2"
+        readings={
+          Array [
+            Object {
+              "color": "#ff0808",
+              "value": 100,
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="update-summary_item"
+    >
+      <h3
+        className="form__heading__update-summary"
+      >
+        4g Fats
+      </h3>
+      <MultiColorProgressBar
+        key="3"
+        readings={
+          Array [
+            Object {
+              "color": "#ff0808",
+              "value": 100,
+            },
+          ]
+        }
+      />
+    </div>
+  </span>
+</div>
+`;

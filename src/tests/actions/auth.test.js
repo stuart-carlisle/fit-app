@@ -1,4 +1,4 @@
-import { login, logout } from '../../actions/auth';
+import { login, logout, setTargetsToCompleted, setDiaryToCompleted, setTargetsToSubmitted } from '../../actions/auth';
 
 
 test('should setup login action object', () => {
@@ -16,3 +16,26 @@ test('should setup login action object', () => {
       type: 'LOGOUT'
     });
   });
+
+test('should setup setTargetsToCompleted action object', () => {
+  const action = setTargetsToCompleted();
+  expect(action).toEqual({
+    type: 'SET_TARGETS_TO_COMPLETED'
+  });
+});
+
+
+
+test('should setup setDiaryToCompleted action object', () => {
+  const action = setDiaryToCompleted();
+  expect(action).toEqual({
+    type: 'SET_DIARY_TO_COMPLETED'
+  });
+});
+
+test('should setup setTargetsToSubmitted action object', () => {
+  const action = setTargetsToSubmitted();
+  expect(action).toEqual({
+    type: 'SET_TARGETS_TO_SUBMITTED'
+  });
+});

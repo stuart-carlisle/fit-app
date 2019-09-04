@@ -1,0 +1,593 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render add food list with empty message 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className=""
+    >
+      Food
+    </div>
+    <div
+      className="show-for-tablet"
+    >
+      Calories
+    </div>
+    <div
+      className="show-for-mobile"
+    >
+      Cals
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <div
+      className="list-item list-item--message"
+    >
+      <span>
+        No Foods In History
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Should render add food list with foods 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className=""
+    >
+      Food
+    </div>
+    <div
+      className="show-for-tablet"
+    >
+      Calories
+    </div>
+    <div
+      className="show-for-mobile"
+    >
+      Cals
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <AddFoodsListItem
+      description="BEANS"
+      diaryDate={-345600000}
+      id="1"
+      key="1"
+      lastUsed={-345600000}
+      meal="breakfast"
+      numberOfServings="1"
+      nutrition={
+        Object {
+          "energy": Object {
+            "amount": "670",
+          },
+          "protein": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "satFat": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "sugars": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "totalCarbs": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "totalFat": Object {
+            "amount": "",
+            "unit": "",
+          },
+        }
+      }
+      serving={
+        Object {
+          "servingSize": Object {
+            "size": "300",
+            "unit": "g",
+          },
+          "servingsPerContainer": "",
+        }
+      }
+    />
+    <AddFoodsListItem
+      description="CHEESE ON TOAST"
+      diaryDate={0}
+      id="2"
+      key="2"
+      lastUsed={0}
+      meal="lunch"
+      numberOfServings="1"
+      nutrition={
+        Object {
+          "energy": Object {
+            "amount": "340",
+          },
+          "protein": Object {
+            "amount": "2",
+            "unit": "g",
+          },
+          "satFat": Object {
+            "amount": "0.5",
+            "unit": "g",
+          },
+          "sugars": Object {
+            "amount": "3",
+            "unit": "g",
+          },
+          "totalCarbs": Object {
+            "amount": "34",
+            "unit": "g",
+          },
+          "totalFat": Object {
+            "amount": "1.2",
+            "unit": "g",
+          },
+        }
+      }
+      serving={
+        Object {
+          "servingSize": Object {
+            "size": "200",
+            "unit": "g",
+          },
+          "servingsPerContainer": "1",
+        }
+      }
+    />
+    <AddFoodsListItem
+      description="CREAM"
+      diaryDate={345600000}
+      id="3"
+      key="3"
+      lastUsed={345600000}
+      meal="dinner"
+      numberOfServings="2"
+      nutrition={
+        Object {
+          "energy": Object {
+            "amount": "234",
+          },
+          "protein": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "satFat": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "sugars": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "totalCarbs": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "totalFat": Object {
+            "amount": "",
+            "unit": "",
+          },
+        }
+      }
+      serving={
+        Object {
+          "servingSize": Object {
+            "size": "40",
+            "unit": "g",
+          },
+          "servingsPerContainer": "2",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Should render add food list with more than 10 items to only show 10 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className=""
+    >
+      Food
+    </div>
+    <div
+      className="show-for-tablet"
+    >
+      Calories
+    </div>
+    <div
+      className="show-for-mobile"
+    >
+      Cals
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <AddFoodsListItem
+      description="BEANS"
+      diaryDate={-345600000}
+      id="1"
+      key="1"
+      lastUsed={-345600000}
+      meal="breakfast"
+      numberOfServings="1"
+      nutrition={
+        Object {
+          "energy": Object {
+            "amount": "670",
+          },
+          "protein": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "satFat": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "sugars": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "totalCarbs": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "totalFat": Object {
+            "amount": "",
+            "unit": "",
+          },
+        }
+      }
+      serving={
+        Object {
+          "servingSize": Object {
+            "size": "300",
+            "unit": "g",
+          },
+          "servingsPerContainer": "",
+        }
+      }
+    />
+    <AddFoodsListItem
+      description="CHEESE ON TOAST"
+      diaryDate={0}
+      id="2"
+      key="2"
+      lastUsed={0}
+      meal="lunch"
+      numberOfServings="1"
+      nutrition={
+        Object {
+          "energy": Object {
+            "amount": "340",
+          },
+          "protein": Object {
+            "amount": "2",
+            "unit": "g",
+          },
+          "satFat": Object {
+            "amount": "0.5",
+            "unit": "g",
+          },
+          "sugars": Object {
+            "amount": "3",
+            "unit": "g",
+          },
+          "totalCarbs": Object {
+            "amount": "34",
+            "unit": "g",
+          },
+          "totalFat": Object {
+            "amount": "1.2",
+            "unit": "g",
+          },
+        }
+      }
+      serving={
+        Object {
+          "servingSize": Object {
+            "size": "200",
+            "unit": "g",
+          },
+          "servingsPerContainer": "1",
+        }
+      }
+    />
+    <AddFoodsListItem
+      description="CREAM"
+      diaryDate={345600000}
+      id="3"
+      key="3"
+      lastUsed={345600000}
+      meal="dinner"
+      numberOfServings="2"
+      nutrition={
+        Object {
+          "energy": Object {
+            "amount": "234",
+          },
+          "protein": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "satFat": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "sugars": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "totalCarbs": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "totalFat": Object {
+            "amount": "",
+            "unit": "",
+          },
+        }
+      }
+      serving={
+        Object {
+          "servingSize": Object {
+            "size": "40",
+            "unit": "g",
+          },
+          "servingsPerContainer": "2",
+        }
+      }
+    />
+    <AddFoodsListItem
+      description="BEANS"
+      diaryDate={-345600000}
+      id="1"
+      key="1"
+      lastUsed={-345600000}
+      meal="breakfast"
+      numberOfServings="1"
+      nutrition={
+        Object {
+          "energy": Object {
+            "amount": "670",
+          },
+          "protein": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "satFat": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "sugars": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "totalCarbs": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "totalFat": Object {
+            "amount": "",
+            "unit": "",
+          },
+        }
+      }
+      serving={
+        Object {
+          "servingSize": Object {
+            "size": "300",
+            "unit": "g",
+          },
+          "servingsPerContainer": "",
+        }
+      }
+    />
+    <AddFoodsListItem
+      description="CHEESE ON TOAST"
+      diaryDate={0}
+      id="2"
+      key="2"
+      lastUsed={0}
+      meal="lunch"
+      numberOfServings="1"
+      nutrition={
+        Object {
+          "energy": Object {
+            "amount": "340",
+          },
+          "protein": Object {
+            "amount": "2",
+            "unit": "g",
+          },
+          "satFat": Object {
+            "amount": "0.5",
+            "unit": "g",
+          },
+          "sugars": Object {
+            "amount": "3",
+            "unit": "g",
+          },
+          "totalCarbs": Object {
+            "amount": "34",
+            "unit": "g",
+          },
+          "totalFat": Object {
+            "amount": "1.2",
+            "unit": "g",
+          },
+        }
+      }
+      serving={
+        Object {
+          "servingSize": Object {
+            "size": "200",
+            "unit": "g",
+          },
+          "servingsPerContainer": "1",
+        }
+      }
+    />
+    <AddFoodsListItem
+      description="CREAM"
+      diaryDate={345600000}
+      id="3"
+      key="3"
+      lastUsed={345600000}
+      meal="dinner"
+      numberOfServings="2"
+      nutrition={
+        Object {
+          "energy": Object {
+            "amount": "234",
+          },
+          "protein": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "satFat": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "sugars": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "totalCarbs": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "totalFat": Object {
+            "amount": "",
+            "unit": "",
+          },
+        }
+      }
+      serving={
+        Object {
+          "servingSize": Object {
+            "size": "40",
+            "unit": "g",
+          },
+          "servingsPerContainer": "2",
+        }
+      }
+    />
+    <AddFoodsListItem
+      description="BEANS"
+      diaryDate={-345600000}
+      id="1"
+      key="1"
+      lastUsed={-345600000}
+      meal="breakfast"
+      numberOfServings="1"
+      nutrition={
+        Object {
+          "energy": Object {
+            "amount": "670",
+          },
+          "protein": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "satFat": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "sugars": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "totalCarbs": Object {
+            "amount": "",
+            "unit": "",
+          },
+          "totalFat": Object {
+            "amount": "",
+            "unit": "",
+          },
+        }
+      }
+      serving={
+        Object {
+          "servingSize": Object {
+            "size": "300",
+            "unit": "g",
+          },
+          "servingsPerContainer": "",
+        }
+      }
+    />
+    <AddFoodsListItem
+      description="CHEESE ON TOAST"
+      diaryDate={0}
+      id="2"
+      key="2"
+      lastUsed={0}
+      meal="lunch"
+      numberOfServings="1"
+      nutrition={
+        Object {
+          "energy": Object {
+            "amount": "340",
+          },
+          "protein": Object {
+            "amount": "2",
+            "unit": "g",
+          },
+          "satFat": Object {
+            "amount": "0.5",
+            "unit": "g",
+          },
+          "sugars": Object {
+            "amount": "3",
+            "unit": "g",
+          },
+          "totalCarbs": Object {
+            "amount": "34",
+            "unit": "g",
+          },
+          "totalFat": Object {
+            "amount": "1.2",
+            "unit": "g",
+          },
+        }
+      }
+      serving={
+        Object {
+          "servingSize": Object {
+            "size": "200",
+            "unit": "g",
+          },
+          "servingsPerContainer": "1",
+        }
+      }
+    />
+  </div>
+</div>
+`;

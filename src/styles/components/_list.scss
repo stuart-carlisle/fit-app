@@ -1,46 +1,76 @@
 .list-header {
-    background: $off-white;
-    border: 1px solid darken($off-white, 7%);
-    color: $grey;
+    background: lighten($color: $blue, $amount: 45%);
+    border: 1px solid $blue;
+    color: $blue;
     display:flex;
+    font-weight: bold;
     justify-content: space-between;
     padding:$s-size $m-size;
+    font-family: "Agency FB";
+    font-size: 2.8rem;
+    @media (max-width: $tablet-breakpoint) {
+        border-left: none;
+        border-right:none;
+        padding:0 $s-size;
+        font-size: 1.6rem;
+        margin-top:$s-size;
+        font-weight: 600;
+    }
+    @media (min-width: $tablet-breakpoint ) and (max-width: $large-tablet-breakpoint) {
+        font-size: 2.4rem;
+    }
 }
 
 .list-item {
-    border: 1px solid darken($off-white, 7%);
+    font-family: "Agency FB";
+    font-size: 2.5rem;
+    border: 1px solid darken($blue, 7%);
     border-top: none;
-    color: $dark-grey;
+    color: $blue;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     padding: $s-size;
     text-decoration: none;
     transition: background 0.3s ease;
     &:hover {
-        background: $off-white;
+        background: lighten($color: $blue, $amount: 45%);
     }
-    @media (min-width: $desktop-breakpoint) {
+    @media (max-width: $tablet-breakpoint) {
         align-items: center;
         flex-direction: row;
         justify-content: space-between;
-        padding:$m-size;
+        padding:0 $s-size;
+        font-size:1.6rem;
+        border-left: none;
+        border-right:none;
     }
 }
 
 .list-body {
-    margin-bottom: $m-size;
-    @media(min-width: $desktop-breakpoint) {
-        margin-bottom: $l-size;
+    margin-bottom: 0;
+    @media(max-width: $tablet-breakpoint) {
+        margin-bottom: 0;
+        border-left: none;
+        border-right:none;
     }
 }
 
 .list-item--message {
     align-items: center;
-    color: $grey;
+    color: $blue;
     justify-content: center;
     padding: $m-size;
     &:hover {
         background: none;
+    }
+    font-family: "Agency FB";
+    font-size: 2.5rem;
+    @media(max-width: $tablet-breakpoint) {
+        margin-bottom: 0;
+        border-left: none;
+        border-right:none;
+        font-size: 1.8rem;
     }
 }
 
@@ -55,8 +85,8 @@
 }
 
 .list-item__data {
-    margin: $s-size 0 0 0;
-    @media (min-width: $desktop-breakpoint) {
+    margin: 0 0 0 0;
+    @media (max-width: $tablet-breakpoint) {
         margin: 0;
         padding-left: $s-size; 
     }

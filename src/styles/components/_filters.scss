@@ -1,0 +1,110 @@
+.page-header__date-filter{
+    background: white;
+    margin: $l-size;
+    padding: $l-size 0;
+    border: 1px solid $blue;
+    -webkit-box-shadow: 0 8px 6px -6px $blue;
+	   -moz-box-shadow: 0 8px 6px -6px $blue;
+            box-shadow: 0 8px 6px -6px $blue;
+    @media (min-width: $tablet-breakpoint ) and (max-width: $large-tablet-breakpoint) {
+        margin:0 0 $s-size 0;
+        height: 130px;
+        padding:$s-size 0;
+        border-left: none;
+        border-right:none;
+    }
+    @media (max-width:$tablet-breakpoint) {
+        margin:0 0 0 0;
+        height: 100px;
+        padding:$s-size 0;
+        border-left: none;
+        border-right:none;
+    }
+}
+
+.page-header__filter{
+    background: white;
+    margin: $l-size;
+    padding: $l-size 0;
+    border: 1px solid $blue;
+    -webkit-box-shadow: 0 8px 6px -6px $blue;
+	   -moz-box-shadow: 0 8px 6px -6px $blue;
+            box-shadow: 0 8px 6px -6px $blue;
+     @media (max-width:$large-tablet-breakpoint) {
+        margin:0;
+        padding:$s-size 0;
+        border-left: none;
+        border-right:none;
+    }
+}
+
+.page-header__filter--with-back {
+    margin: 0 $l-size $l-size $l-size;
+    @media (max-width:$tablet-breakpoint) {
+        margin:0;
+    }
+    @media (min-width: $tablet-breakpoint ) and (max-width: $large-tablet-breakpoint) {
+        margin:0 0 $m-size 0;
+    }
+}
+
+.filters-text-input {
+    border: 1px solid #cacccd;
+    height: 50px;
+    font-size:$font-size-large;
+    font-weight: 300;
+    padding: $s-size;
+    width:100%;
+    font-family: "Agency FB";
+    margin:0 $s-size 0 0;
+    color:$blue;
+    @media (max-width:$tablet-breakpoint) {
+        margin:0;
+        padding:0.6rem;
+        font-size:$font-size-small;
+        height: 30px;
+    }
+    @media (min-width: $tablet-breakpoint ) and (max-width: $large-tablet-breakpoint) {
+        margin:0 $s-size 0 0;
+        padding:0.6rem;
+        font-size:1.8rem;
+        height: 30px;
+        width:140px;
+    }
+}
+
+.header__content--filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: $s-size 0;
+    width:100%;
+    padding:0 0;
+}
+
+.filters-text-input__span-container {
+    display:flex;
+    justify-content: space-between;
+    @media (max-width:$tablet-breakpoint) {
+        flex-direction: column;
+        align-content: center;
+    }
+}
+
+
+.filters-button--form-page-header {
+    width:200px;
+    @media (max-width:$tablet-breakpoint) {
+        height:30px;
+        font-size:$font-size-small;
+        padding:0.6rem;
+    }   
+    @media (min-width: $tablet-breakpoint ) and (max-width: $large-tablet-breakpoint) {
+        margin:0 0 0 0;
+        padding:0.6rem;
+        font-size:1.8rem;
+        height: 30px;
+        width:140px;
+    }
+    
+}

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render the sidedrawer back button correctly 1`] = `
+<Link
+  className="side-draw__list-item"
+  onClick={[Function]}
+  to="/"
+>
+  <span
+    className="side-draw__span-container"
+  >
+    <div>
+      <p
+        className="side-draw-item__logout-title"
+      >
+        logout
+      </p>
+    </div>
+  </span>
+</Link>
+`;

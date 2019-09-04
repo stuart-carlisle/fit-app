@@ -4,28 +4,76 @@ exports[`Should render the header correctly 1`] = `
 <header
   className="header"
 >
-  <div
-    className="content-container"
+  <span
+    className="summary-item--span-header"
   >
-    <div
-      className="header__content"
+    <button
+      className="header__button"
+      onClick={[Function]}
     >
-      <Link
-        className="header__title"
-        replace={false}
-        to="/dashboard"
+      <img
+        className="image__header-burger"
+        src="/images/list.png"
+      />
+    </button>
+    <div
+      className="content-container__header-title"
+    >
+      <div
+        className="header__content"
       >
-        <h1>
-          Boilerplate
-        </h1>
-      </Link>
-      <button
-        className="button button--link"
-        onClick={[Function]}
-      >
-        Logout
-      </button>
+        <Link
+          className="header__image"
+          to="/dashboard"
+        >
+          <img
+            className="image__icon"
+            src="/images/home-icon.svg"
+          />
+        </Link>
+        <Link
+          className="header__image"
+          to="/diary"
+        >
+          <img
+            className="image__icon"
+            src="/images/diary-icon.svg"
+          />
+        </Link>
+        <Link
+          className="header__image"
+          to="/update-targets"
+        >
+          <img
+            className="image__icon"
+            src="/images/target-icon.svg"
+          />
+        </Link>
+        <Link
+          className="header__image"
+          to="/progress"
+        >
+          <img
+            className="image__icon"
+            src="/images/progress-icon.svg"
+          />
+        </Link>
+        <div
+          className="header__title"
+        >
+          <Link
+            className="header__title-link"
+            to="/dashboard"
+          >
+            <h1
+              id="id1"
+            >
+              FIT-APP
+            </h1>
+          </Link>
+        </div>
+      </div>
     </div>
-  </div>
+  </span>
 </header>
 `;

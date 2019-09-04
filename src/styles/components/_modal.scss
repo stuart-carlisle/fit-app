@@ -1,0 +1,114 @@
+
+.modal{
+    background: white;
+    border: 2px solid darken($grey, 7%);
+    border-radius: 3px;
+    color:$blue;
+    font-family: "Agency FB";
+    width:48rem;
+    height:42rem;
+    position:absolute;
+    top:50%;
+    left:50%;
+    outline:none;
+    padding:$m-size;
+    display:none;
+    z-index:4;
+    margin: -21rem -24rem;
+    @media(min-width:$tablet-breakpoint) and (max-width:$large-tablet-breakpoint){
+        width:30rem;
+        height:46rem;
+        margin: -23rem -15rem;
+    }
+    @media(max-width:$tablet-breakpoint){
+        width:16rem;
+        height:28rem;
+        margin: -14rem -8rem;
+    }
+    @media(max-height:28rem) and (max-width:$large-tablet-breakpoint){
+        width:16rem;
+        height:24rem;
+        margin:-12rem -8rem;
+    }
+}
+
+.modal__title{
+    margin: 0 0 $s-size 0;
+    color: $blue;
+    text-align: center;
+    @media(max-width:$tablet-breakpoint){
+        margin: 0;
+        font-size:1.8rem;
+    }
+    @media(max-height:28rem) and (max-width:$large-tablet-breakpoint){
+        font-size:1.5rem;
+        margin:0;
+    }
+}
+
+.modal__body{
+    text-align:center;
+    white-space: wrap;
+    color:$grey;
+    @media(max-width:$tablet-breakpoint){
+        font-size:1.2rem;
+        height:14rem;
+        margin:0.6rem 0;
+    }
+    @media(max-height:28rem) and (max-width:$large-tablet-breakpoint){
+        font-size:1rem;
+        margin:0;
+        height:10rem;
+    }
+}
+
+.modal.open{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    animation: modal-open-animation 1s;
+    animation-fill-mode: forwards;
+}
+
+.modal__image-container{
+    display:flex;
+    flex-direction: row;
+    padding: $s-size;
+    justify-content: center;
+    width: 100%;
+    @media(max-width:$tablet-breakpoint){
+        padding:0;
+    }
+}
+
+.modal__image{
+    height:12rem;
+    width:13rem;
+    @media(max-width:$tablet-breakpoint){
+        height:5rem;
+        width:5.4rem;
+    }
+    @media(max-height:28rem) and (max-width:$large-tablet-breakpoint){
+        height:4rem;
+        width:4.3rem;
+    }
+    
+}
+
+.modal__button{
+    @media(max-width:$tablet-breakpoint){
+        font-size:1.8rem;
+        margin:0;
+        padding:0.6rem;
+    }
+    @media(max-height:28rem) and (max-width:$large-tablet-breakpoint){
+        padding:0.4rem;
+        font-size:1.5rem;
+        margin:0;
+    }
+}
+
+@keyframes modal-open-animation {
+    0% {opacity: 0}
+    100%{opacity: 1}
+}

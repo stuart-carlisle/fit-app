@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render the sidedrawer correctly 1`] = `
+<div
+  className="side-drawer open"
+>
+  <SideDrawerBackButton
+    data={
+      Object {
+        "image": "/images/back-arrow-white.svg",
+        "link": "blank",
+        "name": "BACK",
+      }
+    }
+    drawerToggleClickHandler={[Function]}
+  />
+  <SideDrawerItem
+    data={
+      Object {
+        "image": "/images/home-icon.svg",
+        "link": "/dashboard",
+        "name": "DASHBOARD",
+      }
+    }
+    drawerToggleClickHandler={[Function]}
+    key="DASHBOARD"
+  />
+  <SideDrawerItem
+    data={
+      Object {
+        "image": "/images/weight-icon.svg",
+        "link": "/personal-details",
+        "name": "SUBMIT WEIGHT",
+      }
+    }
+    drawerToggleClickHandler={[Function]}
+    key="SUBMIT WEIGHT"
+  />
+  <SideDrawerItem
+    data={
+      Object {
+        "image": "/images/target-icon.svg",
+        "link": "/update-targets",
+        "name": "TARGETS",
+      }
+    }
+    drawerToggleClickHandler={[Function]}
+    key="TARGETS"
+  />
+  <SideDrawerItem
+    data={
+      Object {
+        "image": "/images/progress-icon.svg",
+        "link": "/progress",
+        "name": "PROGRESS TRACKER",
+      }
+    }
+    drawerToggleClickHandler={[Function]}
+    key="PROGRESS TRACKER"
+  />
+  <SideDrawerItem
+    data={
+      Object {
+        "image": "/images/diary-icon.svg",
+        "link": "/diary",
+        "name": "DIARY",
+      }
+    }
+    drawerToggleClickHandler={[Function]}
+    key="DIARY"
+  />
+  <Connect(SideDrawerLogoutButton)
+    data={
+      Object {
+        "link": "/",
+        "name": "LOGOUT",
+      }
+    }
+    drawerToggleClickHandler={[Function]}
+  />
+</div>
+`;

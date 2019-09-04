@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render date filter component correctly 1`] = `
+<div
+  className="header__content"
+>
+  <button
+    className="button__header-button2"
+    id="left-date-filter"
+    onClick={[Function]}
+  >
+    <img
+      className="image__header__date-filter"
+      src="/images/left-arrow.png"
+    />
+  </button>
+  <Connect(DailySummaryItemDiary)
+    date={"1970-01-04T23:00:00.000Z"}
+    id="daily-summary"
+    key="342000000"
+  />
+  <button
+    className="button__header-button2"
+    id="right-date-filter"
+    onClick={[Function]}
+  >
+    <img
+      className="image__header__date-filter"
+      src="/images/right-arrow.png"
+    />
+  </button>
+</div>
+`;

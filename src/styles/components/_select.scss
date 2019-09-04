@@ -1,0 +1,91 @@
+select {
+    /* styling */
+    background-color: white;
+    border: thin solid #cacccd;
+    border-radius: 0.5px;
+    font-family: "Agency FB";
+    font-size: $font-size-large;
+    color: $blue;
+    padding: 0.6em 3.5em 0.5em 0.5em;
+    height: 50px;
+    width:200px;
+    @media (max-width:$tablet-breakpoint) {
+      height: 30px;
+      font-size: $font-size-small;
+      padding:0 0 0 0.15em;
+    }
+    @media (min-width: $tablet-breakpoint ) and (max-width: $large-tablet-breakpoint) {
+      height: 30px;
+      width:140px;
+      padding:0 0 0 0.15em;
+      margin: 0 $s-size 0 0;
+      font-size:1.8rem;
+  }
+    /* reset */
+  
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  /* arrows */
+  
+  select.minimal {
+    background-image:
+      linear-gradient(45deg, transparent 50%, $blue 50%),
+      linear-gradient(135deg, $blue 50%, transparent 50%),
+      linear-gradient(to right, #cacccd, #cacccd);
+    background-position:
+      calc(100% - 28px) calc(21px ),
+      calc(100% - 20px) calc(21px ),
+      calc(100% - 2.5em) 0.4em;
+    background-size:
+      8px 8px,
+      8px 8px,
+      1px 1.5em;
+    background-repeat: no-repeat;
+    @media (max-width:$tablet-breakpoint) {
+    background-position:
+      calc(100% - 18px) calc(13px ),
+      calc(100% - 12px) calc(13px ),
+      calc(100% - 2.5em) 0.3em;
+    background-size:
+      6px 6px,
+      6px 6px,
+      1px 1.5em;
+    }
+    @media (min-width: $tablet-breakpoint ) and (max-width: $large-tablet-breakpoint) {
+    background-position:
+      calc(100% - 16px) calc(12px ),
+      calc(100% - 10px) calc(12px ),
+      calc(100% - 1.8em) 0.2em;
+    background-size:
+      6px 6px,
+      6px 6px,
+      1px 1.2em;
+    }
+  }
+
+  select.minimal:focus {
+    color: $blue;
+  }
+    
+  select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+  }
+
+  select.minimal--chart-filter {
+    font-size: 2rem;
+    @media (max-width:$tablet-breakpoint) {
+      font-size: $font-size-small;
+    }
+    @media (min-width: $tablet-breakpoint ) and (max-width: $large-tablet-breakpoint) {
+      font-size:1.6rem;
+    }
+  }
+
+  
