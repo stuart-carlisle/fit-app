@@ -23,9 +23,9 @@ const databasePublic = secondary.database()
 const googleAuthProvider = new firebase.auth.GoogleAuthProvider()
 const twitterAuthProvider = new firebase.auth.TwitterAuthProvider()
 
-googleAuthProvider.setCustomParameters({
-  prompt: 'select_account'
-});
+// googleAuthProvider.setCustomParameters({
+//   prompt: 'select_account'
+// });
 
 export { firebase, googleAuthProvider, database, databasePublic, twitterAuthProvider }
 
