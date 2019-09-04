@@ -2,7 +2,7 @@
   "name": "FIT-APP",
   "short_name": "FitApp",
   "description": "Keep track of calorie intake, record exercise and view progress",
-  "start_url": "https://fit-app-s-c.herokuapp.com",
+  "start_url": "/",
   "theme_color": "#4472C7",
   "icons": [{
     "src": "/images/header_logo.png",
