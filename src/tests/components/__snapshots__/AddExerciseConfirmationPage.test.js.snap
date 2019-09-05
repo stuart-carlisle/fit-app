@@ -4,6 +4,7 @@ exports[`Should render AddExerciseConfirmationPage with props correctly 1`] = `
 <div>
   <Link
     className="button__back-button"
+    replace={false}
     to="/add-exercise"
   >
     <img

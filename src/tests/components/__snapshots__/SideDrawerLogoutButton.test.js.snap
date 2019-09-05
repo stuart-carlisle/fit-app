@@ -4,6 +4,7 @@ exports[`Should render the sidedrawer back button correctly 1`] = `
 <Link
   className="side-draw__list-item"
   onClick={[Function]}
+  replace={false}
   to="/"
 >
   <span

@@ -4,6 +4,7 @@ exports[`Should render CreateFoodPage with props correctly 1`] = `
 <div>
   <Link
     className="button__back-button"
+    replace={false}
     to="/add"
   >
     <img

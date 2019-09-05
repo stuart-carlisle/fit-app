@@ -5,13 +5,9 @@ const foodsDiaryReducerDefaultState = [];
 export default (state = foodsDiaryReducerDefaultState, action) => {
   switch (action.type) {
     case 'ADD_FOOD_DIARY':
-      const food = {
-        id: action.id,
-        ...action.food
-      }
       return [
         ...state,
-        food
+        action.food
       ]
     case 'REMOVE_FOOD_DIARY':
       return state.filter(({ id }) => id !== action.id);

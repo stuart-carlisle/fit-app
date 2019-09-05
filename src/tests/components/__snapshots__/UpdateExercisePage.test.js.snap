@@ -4,6 +4,7 @@ exports[`Should render UpdateExercisePage correctly 1`] = `
 <div>
   <Link
     className="button__back-button"
+    replace={false}
     to="/diary"
   >
     <img

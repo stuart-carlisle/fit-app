@@ -5,13 +5,9 @@ const exercisesDiaryReducerDefaultState = [];
 export default (state = exercisesDiaryReducerDefaultState, action) => {
   switch (action.type) {
     case 'ADD_EXERCISE_DIARY':
-      const exercise = {
-        id: action.id,
-        ...action.exercise
-      }
       return [
         ...state,
-        exercise
+        action.exercise
       ]
     case 'REMOVE_EXERCISE_DIARY':
       return state.filter(({ id }) => id !== action.id);

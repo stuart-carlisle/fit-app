@@ -45,11 +45,20 @@ test('Should return exercisesDiary array if wrong edit id is given',()=>{
     expect(state).toEqual(exercises)
 })
 
-test('Should set expenses',()=>{
+test('Should set exercises',()=>{
     const action = {
         type:'SET_EXERCISES_DIARY',
         exercises: [exercises[1]]
     }
     const state = exercisesDiaryReducer(exercises,action)
+    expect(state).toEqual([exercises[1]])
+})
+
+test('Should add exercise to Diary',()=>{
+    const action = {
+        type:'ADD_EXERCISE_DIARY',
+        exercise: exercises[1]
+    }
+    const state = exercisesDiaryReducer([],action)
     expect(state).toEqual([exercises[1]])
 })
