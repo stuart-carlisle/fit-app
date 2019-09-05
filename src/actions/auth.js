@@ -7,13 +7,13 @@ export const login = (uid) => ({
 
 export const startLoginGoogle = () => {
   return () => {
-    return firebase.auth().signInWithPopup(googleAuthProvider);
+    return firebase.auth().signInWithRedirect(googleAuthProvider);
   };
 };
 
 export const startLoginTwitter = () => {
   return () => {
-    return firebase.auth().signInWithPopup(twitterAuthProvider);
+    return firebase.auth().signInWithRedirect(twitterAuthProvider);
   };
 };
 

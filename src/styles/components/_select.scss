@@ -39,9 +39,9 @@ select {
       linear-gradient(135deg, $blue 50%, transparent 50%),
       linear-gradient(to right, #cacccd, #cacccd);
     background-position:
-      calc(100% - 28px) calc(21px ),
-      calc(100% - 20px) calc(21px ),
-      calc(100% - 2.5em) 0.4em;
+      calc(100% - 28px) calc(21px),
+      calc(100% - 20px) calc(21px),
+      calc(100% - 5rem) 0.9rem;
     background-size:
       8px 8px,
       8px 8px,
@@ -49,23 +49,23 @@ select {
     background-repeat: no-repeat;
     @media (max-width:$tablet-breakpoint) {
     background-position:
-      calc(100% - 18px) calc(13px ),
-      calc(100% - 12px) calc(13px ),
-      calc(100% - 2.5em) 0.3em;
+      calc(100% - 18px) calc(13px),
+      calc(100% - 12px) calc(13px),
+      calc(100% - 3.5rem) 0.6rem;
     background-size:
       6px 6px,
       6px 6px,
-      1px 1.5em;
+      1px 1.8rem;
     }
     @media (min-width: $tablet-breakpoint ) and (max-width: $large-tablet-breakpoint) {
     background-position:
-      calc(100% - 16px) calc(12px ),
-      calc(100% - 10px) calc(12px ),
-      calc(100% - 1.8em) 0.2em;
+      calc(100% - 16px) calc(12px),
+      calc(100% - 10px) calc(12px),
+      calc(100% - 3rem) 0.5rem;
     background-size:
       6px 6px,
       6px 6px,
-      1px 1.2em;
+      1px 1.6rem;
     }
   }
 

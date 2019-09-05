@@ -1,6 +1,0 @@
-add "start_url": "/?homescreen=1", to manifest.json when we set up production
-sort out permissions on firebase include authorising the heroku domain
-use test for algolia
-test custom hook
-send to production
-work on limiting rerenders

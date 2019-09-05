@@ -15,7 +15,7 @@ export const PublicRoute = ({
 
   if(backgroundOn){
     backdrop = (
-        <Backdrop backgroundColor={"rgba(0,0,0,0.6)"}/>
+        <Backdrop backgroundColor={"rgba(255,255,255,100)"}/>
     )
   }
 
