@@ -12,7 +12,7 @@ export const AddFoodsList = ({ foods }) => {
     foodsTopResults = foods
   }
 
-  return(<div className="content-container">
+  return(<div className="content-container__diary">
    <div className="list-header">
     <div className="">Food</div>
     <div className="show-for-tablet">Calories</div>

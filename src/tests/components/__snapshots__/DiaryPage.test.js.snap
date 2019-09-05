@@ -23,6 +23,7 @@ exports[`Should render diary page correctly 1`] = `
     <Link
       className="button button--link"
       onClick={[Function]}
+      replace={false}
       to="/add"
     >
       + Add Food
@@ -38,6 +39,7 @@ exports[`Should render diary page correctly 1`] = `
     <Link
       className="button button--link"
       onClick={[Function]}
+      replace={false}
       to="/add"
     >
       + Add Food
@@ -53,6 +55,7 @@ exports[`Should render diary page correctly 1`] = `
     <Link
       className="button button--link"
       onClick={[Function]}
+      replace={false}
       to="/add"
     >
       + Add Food
@@ -68,6 +71,7 @@ exports[`Should render diary page correctly 1`] = `
     <Link
       className="button button--link"
       onClick={[Function]}
+      replace={false}
       to="/add"
     >
       + Add Food
@@ -79,6 +83,7 @@ exports[`Should render diary page correctly 1`] = `
   >
     <Link
       className="button button--link"
+      replace={false}
       to="/add-exercise"
     >
       + Add Exercise

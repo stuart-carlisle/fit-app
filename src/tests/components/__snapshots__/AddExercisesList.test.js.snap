@@ -2,7 +2,7 @@
 
 exports[`Should render add exercise list with empty message 1`] = `
 <div
-  className="content-container"
+  className="content-container__diary"
 >
   <div
     className="list-header"
@@ -39,7 +39,7 @@ exports[`Should render add exercise list with empty message 1`] = `
 
 exports[`Should render add exercise list with exercises 1`] = `
 <div
-  className="content-container"
+  className="content-container__diary"
 >
   <div
     className="list-header"
@@ -99,7 +99,7 @@ exports[`Should render add exercise list with exercises 1`] = `
 
 exports[`Should render add exercise list with more than 10 items to only show 10 1`] = `
 <div
-  className="content-container"
+  className="content-container__diary"
 >
   <div
     className="list-header"

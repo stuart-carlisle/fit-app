@@ -6,14 +6,14 @@
     font-weight: bold;
     justify-content: space-between;
     padding:$s-size $m-size;
-    font-family: "Agency FB";
+    font-family:$homenaje;
     font-size: 2.8rem;
     @media (max-width: $tablet-breakpoint) {
-        border-left: none;
-        border-right:none;
+        // border-left: none;
+        // border-right:none;
         padding:0 $s-size;
         font-size: 1.6rem;
-        margin-top:$s-size;
+        //margin-top:1rem;
         font-weight: 600;
     }
     @media (min-width: $tablet-breakpoint ) and (max-width: $large-tablet-breakpoint) {
@@ -22,7 +22,7 @@
 }
 
 .list-item {
-    font-family: "Agency FB";
+    font-family:$homenaje;
     font-size: 2.5rem;
     border: 1px solid darken($blue, 7%);
     border-top: none;
@@ -42,8 +42,8 @@
         justify-content: space-between;
         padding:0 $s-size;
         font-size:1.6rem;
-        border-left: none;
-        border-right:none;
+        // border-left: none;
+        // border-right:none;
     }
 }
 
@@ -51,8 +51,8 @@
     margin-bottom: 0;
     @media(max-width: $tablet-breakpoint) {
         margin-bottom: 0;
-        border-left: none;
-        border-right:none;
+        // border-left: none;
+        // border-right:none;
     }
 }
 
@@ -64,13 +64,14 @@
     &:hover {
         background: none;
     }
-    font-family: "Agency FB";
+    font-family:$homenaje;
     font-size: 2.5rem;
     @media(max-width: $tablet-breakpoint) {
         margin-bottom: 0;
-        border-left: none;
-        border-right:none;
-        font-size: 1.8rem;
+        padding:0;
+        // border-left: none;
+        // border-right:none;
+        font-size: 1.6rem;
     }
 }
 

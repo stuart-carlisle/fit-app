@@ -2,7 +2,7 @@
 
 exports[`Should render diary exercise list with empty message 1`] = `
 <div
-  className="content-container"
+  className="content-container__diary"
 >
   <div
     className="list-header"
@@ -39,7 +39,7 @@ exports[`Should render diary exercise list with empty message 1`] = `
 
 exports[`Should render diary exercise list with exercises 1`] = `
 <div
-  className="content-container"
+  className="content-container__diary"
 >
   <div
     className="list-header"

@@ -31,7 +31,7 @@
 
 @keyframes header-animation-mobile {
     0%   {background: white; height:70px; margin-bottom: 0px}
-    100% {background: $blue; height: 30px;margin-bottom: 60px}
+    100% {background: $blue; height: 50px;margin-bottom: 40px}
   }
 
 .header__content {
@@ -53,8 +53,7 @@
     animation: header-content-animation 1s;
     animation-fill-mode: forwards;
     @media (max-width:$tablet-breakpoint) {
-        height:50px;
-        justify-content: space-around;
+        justify-content: space-between;
         animation: header-content-animation-mobile 1s;
         animation-fill-mode: forwards;
     }
@@ -67,7 +66,7 @@
 
 @keyframes header-content-animation-mobile {
     0% {height:70px;}
-    100%{height:30px;}
+    100%{height:50px;}
 }
 
 // header contents
@@ -111,7 +110,7 @@
     background: none;
     border: none;
     color:$blue;
-    font-family: "Agency FB";
+    
     font-size:32px;
     font-weight: 300;
     line-height: 1;
@@ -146,7 +145,7 @@
 
 .header__title {
     color: $blue;
-    font-family: "Agency FB";
+    font-family: $homenaje;
     text-decoration: none;
     font-size: 3rem;
     h1 {
@@ -174,7 +173,7 @@
 
 .header__title-link {
     color: $blue;
-    font-family: "Agency FB";
+    font-family: $homenaje;//"Agency FB";
     text-decoration: none;
 }
 
@@ -193,8 +192,8 @@
     animation-fill-mode: forwards;
     @media (max-width:$tablet-breakpoint) {
         margin:$s-size;
-        height:2rem;
-        width:2rem;
+        height:3rem;
+        width:3rem;
     }
 }
 

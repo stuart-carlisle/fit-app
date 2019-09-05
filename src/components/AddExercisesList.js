@@ -12,7 +12,7 @@ export const AddExercisesList = ({exercises}) => {
     exercisesTopResults = exercises
   }
 
-  return(<div className="content-container">
+  return(<div className="content-container__diary">
    <div className="list-header">
     <div className="">Exercise</div>
     <div className="show-for-tablet">Calories Burned</div>

@@ -14,7 +14,7 @@
         border-right:none;
     }
     @media (max-width:$tablet-breakpoint) {
-        margin:0 0 0 0;
+        margin:0 0 1rem 0;
         height: 100px;
         padding:$s-size 0;
         border-left: none;
@@ -41,7 +41,7 @@
 .page-header__filter--with-back {
     margin: 0 $l-size $l-size $l-size;
     @media (max-width:$tablet-breakpoint) {
-        margin:0;
+        margin:0 0 $s-size 0;
     }
     @media (min-width: $tablet-breakpoint ) and (max-width: $large-tablet-breakpoint) {
         margin:0 0 $m-size 0;
@@ -55,7 +55,7 @@
     font-weight: 300;
     padding: $s-size;
     width:100%;
-    font-family: "Agency FB";
+    font-family:$homenaje;
     margin:0 $s-size 0 0;
     color:$blue;
     @media (max-width:$tablet-breakpoint) {

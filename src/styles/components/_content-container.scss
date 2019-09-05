@@ -9,7 +9,16 @@
     }
 }
 
-
+.content-container__diary {
+    margin: 0 auto;
+    max-width: 80rem;
+    padding: 0 $m-size;
+    align-content: center;
+    @media (max-width:$tablet-breakpoint) {
+        font-size:1.5rem;
+        padding:0.6rem 1rem 0 1rem;
+    }
+}
 
 .span-container__update {
     display:flex;

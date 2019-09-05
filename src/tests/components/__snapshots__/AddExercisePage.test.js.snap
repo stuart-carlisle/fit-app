@@ -4,6 +4,7 @@ exports[`should render add exercise page correctly with props 1`] = `
 <div>
   <Link
     className="button__back-button"
+    replace={false}
     to="/diary"
   >
     <img
@@ -26,6 +27,7 @@ exports[`should render add exercise page correctly with props 1`] = `
   >
     <Link
       className="button button--link"
+      replace={false}
       to="/create-exercise"
     >
       + CREATE CUSTOM EXERCISE
@@ -38,6 +40,7 @@ exports[`should render add exercise page correctly without props 1`] = `
 <div>
   <Link
     className="button__back-button"
+    replace={false}
     to="/diary"
   >
     <img
@@ -60,6 +63,7 @@ exports[`should render add exercise page correctly without props 1`] = `
   >
     <Link
       className="button button--link"
+      replace={false}
       to="/create-exercise"
     >
       + CREATE CUSTOM EXERCISE

@@ -6,7 +6,7 @@ import selectFoods from '../selectors/diary'
 export const DiaryFoodsList = ({foods,meal}) => {
   const mealTitle= meal.charAt(0).toUpperCase() + meal.slice(1)
   
-  return(<div className="content-container">
+  return(<div className="content-container__diary">
    <div className="list-header">
     <div className="">{mealTitle}</div>
     <div className="show-for-tablet">Calories</div>

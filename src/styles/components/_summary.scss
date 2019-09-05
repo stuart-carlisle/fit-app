@@ -1,5 +1,5 @@
 .summary {
-    font-family: $zcool-font;
+    font-family: $homenaje;
   
     border: 1px solid $blue;
     -webkit-box-shadow: 0 8px 6px -6px $blue;
@@ -35,7 +35,7 @@
 }
 
 .summary__date-filter {
-    font-family: "Agency FB";
+    
     border: none;
     width:100%;
     justify-content:space-between;
@@ -116,6 +116,7 @@
     font-size: 4rem;
     justify-content: space-between;
     @media (max-width:$tablet-breakpoint){
+        height: 50px;
         font-size: 2rem;
         justify-content: start;
     }
@@ -137,7 +138,7 @@
         font-size: 2.8rem;
     }
     @media (min-width: $tablet-breakpoint ) and (max-width: $large-tablet-breakpoint) {
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
     @media (min-width: $large-tablet-breakpoint ) and (max-width: $desktop-breakpoint - 0.1rem) {
         font-size: 4rem;

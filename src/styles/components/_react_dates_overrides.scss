@@ -1,7 +1,7 @@
 .DateInput_input{
        color:$blue;
        font-size:2rem;
-       font-family:"Agency FB";
+       font-family: $homenaje, "Agency FB", $open-sans, Helvetica, Arial, sans-serif;
        height: 49px;
        @media (max-width:$tablet-breakpoint) {
               font-size:1.5rem;
