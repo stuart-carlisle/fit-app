@@ -51,7 +51,7 @@ export const ExerciseForm = ({filters={}, onSubmit}) => {
                     id="energy-used"
                     className="text-input"
                     type="text"
-                    placeholder="Description"
+                    placeholder="Description (Required)"
                     value={description}
                     onChange={(e)=>{setDescription(e.target.value)}}
                 />
@@ -69,7 +69,7 @@ export const ExerciseForm = ({filters={}, onSubmit}) => {
                 <input //Energy Used
                         className="text-input"
                         type="text"
-                        placeholder="Calories Burned"
+                        placeholder="Calories Burned (Required)"
                         value={energy}
                         onChange={onEnergyChange}
                 />

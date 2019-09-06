@@ -184,7 +184,7 @@ export const CreateFoodForm = ({onSubmit, filters={}}) => {
                 <input  //description
                     className="text-input"
                     type="text"
-                    placeholder="Description"
+                    placeholder="Description (Required)"
                     value={description}
                     onChange={(e)=>{setDescription(e.target.value)}}
                 />
@@ -226,7 +226,7 @@ export const CreateFoodForm = ({onSubmit, filters={}}) => {
                     <input //energy amount
                         className="text-input"
                         type="text"
-                        placeholder="Energy in Kilo Calories"
+                        placeholder="Energy in Kilo Calories (Required)"
                         value={nutrition.energy.amount}
                         onChange={onEnergyAmountChange}
                     />
