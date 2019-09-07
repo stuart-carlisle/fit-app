@@ -7,7 +7,7 @@ export const AddExercisesList = ({exercises}) => {
   let exercisesTopResults
   
   if(exercises.length>10){
-    exercisesTopResults = exercises.slice(0,8)
+    exercisesTopResults = exercises.slice(0,10)
   }else{
     exercisesTopResults = exercises
   }

@@ -59,9 +59,7 @@ module.exports= (env) => {
         'process.env.FIREBASE_AUTH_DOMAIN2': JSON.stringify(process.env.FIREBASE_AUTH_DOMAIN2),
         'process.env.FIREBASE_STORAGE_BUCKET2': JSON.stringify(process.env.FIREBASE_STORAGE_BUCKET2),
         'process.env.ALGOLIA_APP_ID': JSON.stringify(process.env.ALGOLIA_APP_ID),
-        'process.env.ALGOLIA_API_KEY': JSON.stringify(process.env.ALGOLIA_API_KEY),
-        'process.env.ALGOLIA_INDEX_NAME': JSON.stringify(process.env.ALGOLIA_INDEX_NAME),
-        'process.env.ALGOLIA_INDEX_NAME2': JSON.stringify(process.env.ALGOLIA_INDEX_NAME2)
+        'process.env.ALGOLIA_API_KEY': JSON.stringify(process.env.ALGOLIA_API_KEY)
       })
     ],
     devtool: isProduction ? 'source-map' : 'inline-source-map',
