@@ -311,7 +311,10 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
         
         if(chartType.option==='3months'){
             
-            const dataset = weights.map((weightItem)=>{
+            const weightsOrdered = weights.sort((a,b)=>{
+                return a.date > b.date ? 1 : -1;
+        })
+        const dataset = weightsOrdered.map((weightItem)=>{
                 
                 const start = moment().startOf('day').subtract(3,'month').valueOf()
                 const end = moment().startOf('day').valueOf()
@@ -404,7 +407,10 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
         
         
         if(chartType.option==='6months'){
-            const dataset = weights.map((weightItem)=>{
+            const weightsOrdered = weights.sort((a,b)=>{
+                return a.date > b.date ? 1 : -1;
+        })
+        const dataset = weightsOrdered.map((weightItem)=>{
                 
                 const start = moment().startOf('day').subtract(6,'month').valueOf()
                 const end = moment().startOf('day').valueOf()
@@ -498,7 +504,10 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
         
         
         if(chartType.option==='year'){
-            const dataset = weights.map((weightItem)=>{
+            const weightsOrdered = weights.sort((a,b)=>{
+                return a.date > b.date ? 1 : -1;
+        })
+        const dataset = weightsOrdered.map((weightItem)=>{
                 
                 const start = moment().startOf('day').subtract(1,'year').valueOf()
                 const end = moment().startOf('day').valueOf()
