@@ -100,7 +100,7 @@ export const UpdateExerciseForm = ({
                           />
                       </div>
                   </span>
-              <span className="text-input__span-container3"><button className="button button--form">Update Exercise</button><button className="button button--form-remove" onClick={remove}>Remove Exercise</button></span>
+              <span className="text-input__span-container3"><button className="button button--form-update">Update Exercise</button><button className="button button--form-remove-update" onClick={remove}>Remove Exercise</button></span>
           </form>
           </div>
     </div> 

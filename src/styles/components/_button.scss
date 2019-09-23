@@ -167,6 +167,43 @@
     }      
 }
 
+.button--form-remove-update {
+    background: $grey;
+    
+    color:white;
+    font-size:2rem;
+    width:150px;
+    height: 50px;
+    margin: $s-size 0 0 $s-size;
+    @media (max-width:$tablet-breakpoint) {
+        font-size:1.5rem;
+        width:93px;
+        height:30px;
+        white-space: nowrap;
+        padding:0;
+        margin-bottom:0;
+        margin: 0 0 0 0.6rem;
+    }      
+}
+
+.button--form-update {
+    background: lighten($color: $blue, $amount: 5%);
+    
+    color:white;
+    font-size:2rem;
+    width:150px;
+    height: 50px;
+    margin:$s-size 0 0 0;
+    @media (max-width:$tablet-breakpoint) {
+        font-size:1.5rem;
+        width:93px;
+        height:30px;
+        white-space: nowrap;
+        padding:0;
+        margin:0 0 0 0
+    }    
+}
+
 .button__image {
     height: 100%;
     width: 100%;
