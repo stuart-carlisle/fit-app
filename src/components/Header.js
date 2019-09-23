@@ -40,7 +40,7 @@ export const Header = ({ drawerToggleClickHandler }) => {
     <Link className={headerImageClassName} to="/update-targets"><img className="image__icon" src="/images/target-icon.svg" /></Link>
     <Link className={headerImageClassName} to="/progress"><img className="image__icon" src="/images/progress-icon.svg" /></Link>
     <div className={headerTitleClassName}>
-    <Link className="header__title-link"to="/dashboard">
+    <Link className="header__title-link" to="/dashboard">
       <h1 id="id1">FIT-APP</h1>
     </Link>
     </div>
@@ -60,3 +60,5 @@ export const Header = ({ drawerToggleClickHandler }) => {
 
 
 export default Header
+
+//<img className="header-logo" src="/images/header-logo.png" />

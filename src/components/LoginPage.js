@@ -22,8 +22,8 @@ export const LoginPage = ({ startLoginGoogle, startLoginTwitter , onLoginClick }
             <img src="/images/running-man-with-title.png" className="image"/>
             <div className="box-layout__title">
             <div>
-              <input type="image" src="/images/google-button-pressed.png"  onClick={onClickGoogle} className="button__image"/>
-              <input type="image" src="/images/twitter-button-pressed.png" onClick={onClickTwitter} className="button__image"/> 
+              <input type="image" src="/images/google-button.png"  onClick={onClickGoogle} className="button__image"/>
+              <input type="image" src="/images/twitter-button.png" onClick={onClickTwitter} className="button__image"/> 
             </div>
           </div>
         </div>

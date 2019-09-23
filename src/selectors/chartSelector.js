@@ -61,7 +61,7 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                         display:true,
                         text:`CALORIE TRACKER FOR THE LAST WEEK`,
                         fontSize:titleSize,
-                        fontFamily: 'Homenaje',
+                        fontFamily: 'Shadows Into Light',
                         fontColor: '#4472C7'
                     },
                     legend:{
@@ -71,14 +71,14 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                     scales: {
                         yAxes: [{
                             ticks: {
-                                fontFamily: 'Homenaje',
+                                fontFamily: 'Shadows Into Light',
                                 fontColor: '#4472C7',
                                 fontSize: tickSize
                             },
                             scaleLabel: {
                                 display: true,
                                 labelString: 'CALORIES PER DAY',
-                                fontFamily: 'Homenaje',
+                                fontFamily: 'Shadows Into Light',
                                 fontColor: '#4472C7',
                                 fontSize: labelSize
                             }
@@ -89,7 +89,7 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                                 unit:'day'
                             },
                             ticks: {
-                                fontFamily: 'Homenaje',
+                                fontFamily: 'Shadows Into Light',
                                 fontColor: '#4472C7',
                                 fontSize: tickSize,
                                 min:moment().startOf('day').subtract(6,'day').valueOf(),
@@ -101,7 +101,7 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                             scaleLabel: {
                                 display: true,
                                 labelString: 'DATE',
-                                fontFamily: 'Homenaje',
+                                fontFamily: 'Shadows Into Light',
                                 fontColor: '#4472C7',
                                 fontSize: labelSize
                             }
@@ -158,7 +158,7 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                             display:true,
                             text:`CALORIE TRACKER FOR THE LAST FORTNIGHT`,
                             fontSize:titleSize,
-                            fontFamily: 'Homenaje',
+                            fontFamily: 'Shadows Into Light',
                             fontColor: '#4472C7'
                         },
                         legend:{
@@ -168,14 +168,14 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                         scales: {
                             yAxes:[{
                                 ticks: {
-                                    fontFamily: 'Homenaje',
+                                    fontFamily: 'Shadows Into Light',
                                     fontColor: '#4472C7',
                                     fontSize: tickSize
                                 },
                                 scaleLabel: {
                                     display: true,
                                     labelString: 'CALORIES PER DAY',
-                                    fontFamily: 'Homenaje',
+                                    fontFamily: 'Shadows Into Light',
                                     fontColor: '#4472C7',
                                     fontSize: labelSize
                                 }
@@ -186,7 +186,7 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                                     unit:'day'
                                 },
                                 ticks: {
-                                    fontFamily: 'Homenaje',
+                                    fontFamily: 'Shadows Into Light',
                                     fontColor: '#4472C7',
                                     fontSize: tickSize,
                                     min:moment().startOf('day').subtract(13,'day').valueOf(),
@@ -198,7 +198,7 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                                 scaleLabel: {
                                     display: true,
                                     labelString: 'DATE',
-                                    fontFamily: 'Homenaje',
+                                    fontFamily: 'Shadows Into Light',
                                     fontColor: '#4472C7',
                                     fontSize: labelSize
                                 }
@@ -257,7 +257,7 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                         display:true,
                         text:`CALORIE TRACKER FOR THE LAST 2 MONTHS`,
                         fontSize:titleSize,
-                        fontFamily: 'Homenaje',
+                        fontFamily: 'Shadows Into Light',
                         fontColor: '#4472C7'
                     },
                     legend:{
@@ -267,14 +267,14 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                     scales: {
                         yAxes:[{
                             ticks: {
-                                fontFamily: 'Homenaje',
+                                fontFamily: 'Shadows Into Light',
                                 fontColor: '#4472C7',
                                 fontSize: tickSize
                             },
                             scaleLabel: {
                                 display: true,
                                 labelString: 'CALORIES PER WEEK',
-                                fontFamily: 'Homenaje',
+                                fontFamily: 'Shadows Into Light',
                                 fontColor: '#4472C7',
                                 fontSize: labelSize
                             }
@@ -285,7 +285,7 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                                 unit:'day'
                             },
                             ticks: {
-                                fontFamily: 'Homenaje',
+                                fontFamily: 'Shadows Into Light',
                                 fontColor: '#4472C7',
                                 fontSize: tickSize,
                                 min:moment().startOf('day').subtract(7,'week').valueOf(),
@@ -297,7 +297,7 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                             scaleLabel: {
                                 display: true,
                                 labelString: 'DATE',
-                                fontFamily: 'Homenaje',
+                                fontFamily: 'Shadows Into Light',
                                 fontColor: '#4472C7',
                                 fontSize: labelSize
                             }
@@ -352,7 +352,7 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                         display:true,
                         text:`WEIGHT TRACKER FOR THE LAST 3 MONTHS`,
                         fontSize:titleSize,
-                        fontFamily: 'Homenaje',
+                        fontFamily: 'Shadows Into Light',
                         fontColor: '#4472C7'
                     },
                     legend:{
@@ -362,14 +362,14 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                     scales: {
                         yAxes:[{
                             ticks: {
-                                fontFamily: 'Homenaje',
+                                fontFamily: 'Shadows Into Light',
                                 fontColor: '#4472C7',
                                 fontSize: tickSize
                             },
                             scaleLabel: {
                                 display: true,
                                 labelString: 'WEIGHT KG',
-                                fontFamily: 'Homenaje',
+                                fontFamily: 'Shadows Into Light',
                                 fontColor: '#4472C7',
                                 fontSize: labelSize
                             }
@@ -380,7 +380,7 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                                 unit:'day'
                             },
                             ticks: {
-                                fontFamily: 'Homenaje',
+                                fontFamily: 'Shadows Into Light',
                                 fontColor: '#4472C7',
                                 fontSize: tickSize,
                                 min:moment().startOf('day').subtract(3,'month').valueOf(),
@@ -392,7 +392,7 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                             scaleLabel: {
                                 display: true,
                                 labelString: 'DATE',
-                                fontFamily: 'Homenaje',
+                                fontFamily: 'Shadows Into Light',
                                 fontColor: '#4472C7',
                                 fontSize: labelSize
                             }
@@ -448,7 +448,7 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                         display:true,
                         text:`WEIGHT TRACKER FOR THE LAST 6 MONTHS`,
                         fontSize:titleSize,
-                        fontFamily: 'Homenaje',
+                        fontFamily: 'Shadows Into Light',
                         fontColor: '#4472C7'
                     },
                     legend:{
@@ -458,14 +458,14 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                     scales: {
                         yAxes:[{
                             ticks: {
-                                fontFamily: 'Homenaje',
+                                fontFamily: 'Shadows Into Light',
                                 fontColor: '#4472C7',
                                 fontSize: tickSize
                             },
                             scaleLabel: {
                                 display: true,
                                 labelString: 'WEIGHT KG',
-                                fontFamily: 'Homenaje',
+                                fontFamily: 'Shadows Into Light',
                                 fontColor: '#4472C7',
                                 fontSize: labelSize
                             }
@@ -476,7 +476,7 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                                 unit:'day'
                             },
                             ticks: {
-                                fontFamily: 'Homenaje',
+                                fontFamily: 'Shadows Into Light',
                                 fontColor: '#4472C7',
                                 fontSize: tickSize,
                                 min:moment().startOf('day').subtract(6,'month').valueOf(),
@@ -488,7 +488,7 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                             scaleLabel: {
                                 display: true,
                                 labelString: 'DATE',
-                                fontFamily: 'Homenaje',
+                                fontFamily: 'Shadows Into Light',
                                 fontColor: '#4472C7',
                                 fontSize: labelSize
                             }
@@ -546,7 +546,7 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                         display:true,
                         text:`WEIGHT TRACKER FOR THE PREVIOUS YEAR`,
                         fontSize:titleSize,
-                        fontFamily: 'Homenaje',
+                        fontFamily: 'Shadows Into Light',
                         fontColor: '#4472C7'
                     },
                     legend:{
@@ -556,14 +556,14 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                     scales: {
                         yAxes:[{
                             ticks: {
-                                fontFamily: 'Homenaje',
+                                fontFamily: 'Shadows Into Light',
                                 fontColor: '#4472C7',
                                 fontSize: tickSize
                             },
                             scaleLabel: {
                                 display: true,
                                 labelString: 'WEIGHT KG',
-                                fontFamily: 'Homenaje',
+                                fontFamily: 'Shadows Into Light',
                                 fontColor: '#4472C7',
                                 fontSize: labelSize
                             }
@@ -574,7 +574,7 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                                 unit:'day'
                             },
                             ticks: {
-                                fontFamily: 'Homenaje',
+                                fontFamily: 'Shadows Into Light',
                                 fontColor: '#4472C7',
                                 fontSize: tickSize,
                                 min:moment().startOf('day').subtract(1,'year').valueOf(),
@@ -586,7 +586,7 @@ export default (foodsDiary, weights, exercisesDiary, { chartType } ) => {
                             scaleLabel: {
                                 display: true,
                                 labelString: 'DATE',
-                                fontFamily: 'Homenaje',
+                                fontFamily: 'Shadows Into Light',
                                 fontColor: '#4472C7',
                                 fontSize: labelSize
                             }
